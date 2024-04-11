@@ -1,35 +1,59 @@
 body, html {
-    height: 100%;
-    margin: 0;
-  }
-  
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .image-container {
-    display: flex;
-  }
-  
-  .image-overlay {
-    position: relative;
-    margin: 10px;
-  }
-  
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.image-container {
+  display: flex;
+}
+
+.image-overlay {
+  position: relative;
+  margin: 10px;
+}
+
+.image {
+  max-width: 350px; /* Maximum width for the images */
+  width: 100%; /* Ensures the image doesn't exceed its container */
+  transition: transform 0.3s ease;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7); /* Color de fondo con transparencia */
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-overlay:hover .image {
+  transform: scale(1.1); /* Agranda la imagen al pasar el mouse */
+}
+
+.image-overlay:hover .overlay-text {
+  opacity: 1; /* Muestra el texto al pasar el mouse */
+}
+
+/* Media query para pantallas más pequeñas */
+@media only screen and (max-width: 768px) {
   .image {
-    width: 350px; 
-    
+    max-width: 100%; /* Ajusta el tamaño máximo al ancho del contenedor */
   }
-  
-  .title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-
-
-  
+}
