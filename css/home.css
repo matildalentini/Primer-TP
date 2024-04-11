@@ -16,32 +16,20 @@ body, html {
   
   .image-overlay {
     position: relative;
-    margin: 0 10px;
-    overflow: hidden;
+    margin: 10px;
   }
   
   .image {
-    width: 300px; /* Ajusta el tamaño de las imágenes según sea necesario */
-    transition: transform 0.3s ease;
+    width: 350px; 
+    
   }
   
-  .overlay-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    background-color: rgba(0, 0, 0, 0.7); /* Color de fondo con transparencia */
-    padding: 10px;
-    opacity: 0;
-    transition: opacity 0.3s ease;
+  .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  
-  .image-overlay:hover .image {
-    transform: scale(1.1); /* Agranda la imagen al pasar el mouse */
-  }
-  
-  .image-overlay:hover .overlay-text {
-    opacity: 1; /* Muestra el texto al pasar el mouse */
-  }
+
+
+
   
