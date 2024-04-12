@@ -8,18 +8,20 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100%;
 }
 
 .image-overlay {
   position: relative;
-  margin: 10px;
+  margin: 1%;
+  height: 20%;
 }
 
-.image {
-  max-width: 350px; /* Maximum width for the images */
-  width: 100%; /* Ensures the image doesn't exceed its container */
+
+.image {      /* especificaciones para las imagenes de las catego
+  width: 350px; /* Maximum width for the images */
   transition: transform 0.8s ease;
+  height: 270%;
 }
 
 .title {
@@ -32,6 +34,7 @@ body, html {
   font-weight: 400;
   font-style: normal;
   font-size: 100px;
+  
 }
 
 .overlay-text {
@@ -47,20 +50,23 @@ body, html {
   display: inline-block;
 }
 
-.image-overlay:hover .image{
-  transform: scale(1.1); /* Agranda la imagen al pasar el mouse */
-  
-}
 
-.image-overlay:hover .overlay-text {
-  opacity: 1; /* Muestra el texto al pasar el mouse */
+/*.image-overlay:hover .image{      /* Agranda la imagen al pasar el mouse  
+  transform: scale(1.1); 
+} 
+*/
+
+
+/*.image-overlay:hover .overlay-text {    /* Muestra el texto al hacer hover 
+  opacity: 1; /* Muestra el texto al hacer hover 
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   color: white;
-  text-decoration: none;
-}
+  text-decoration: none; 
+} 
+*/
 
 /* Media query para pantallas más chicas */
 @media only screen and (max-width: 768px) {
@@ -95,4 +101,8 @@ body, html {
   font-style: normal;
   color: black;
   list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
