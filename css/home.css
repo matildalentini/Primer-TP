@@ -113,16 +113,6 @@ body, html {
   height:80%;
 }
 
-.title2 {
-  display: flex;
-  flex-end;
-  color: black;
-  text-decoration: none;
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 100;
-  font-style:normal;
-  font-size: 35px;
-}
 
 .credits{
   font-family: "Roboto Mono", monospace;
@@ -147,9 +137,22 @@ footer{
   font-size: 10px;
 }
 
-.general{
+.ropawom{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+}
+
+.image-containerw{
+  margin:20px;
+}
+
+.ropamen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-containerm{
+  margin:20px;
 }
