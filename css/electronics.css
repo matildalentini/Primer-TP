@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .title2 {
     display: flex;
     flex-end;
@@ -43,3 +44,10 @@
     align-items: center;
     justify-content: center;
   }
+=======
+.electronics img{
+    height: 100%;
+    width: 300px;
+    margin: 0.2%;
+}
+>>>>>>> 42543f93901a776a4c0d35ddd147dbb1eaa9a347
