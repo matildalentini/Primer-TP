@@ -4,24 +4,6 @@ body, html {
   margin: 0;
 }
 
-.container {
- display: grid;
- grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.image-overlay {
-  position: relative;
-  margin: 1%;
-  height: 20%;
-}
-
-
-.image {      /* especificaciones para las imagenes de las categorias*/
-  transition: transform 0.8s ease;
-  height: 270%;
-  margin:5px;
-}
-
 .title {
   display: flex;
   justify-content: center;
@@ -33,34 +15,6 @@ body, html {
   font-style: normal;
   font-size: 100px;
 }
-
-.overlay-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  background-color: rgba(0, 0, 0, 0.7); 
-  padding: 43%;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-/*
-.image-overlay:hover .image{      /* Agranda la imagen al pasar el mouse  
-  transform: scale(1.1); 
-} 
-
-
-.image-overlay:hover .overlay-text {   
-  opacity: 1; 
-  font-family: "Roboto Mono", monospace;
-  font-weight: 400;
-  font-style: normal;
-  color: white;
-  text-decoration: none; 
-} 
-*/
 
 .lista{
   display: flex;
@@ -163,7 +117,7 @@ grid-template-columns: 1fr 1fr 1fr;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30%;
+  padding: 10%;
 }
 .settings :hover{
   text-decoration: underline;
@@ -200,56 +154,8 @@ grid-template-columns: 1fr 1fr 1fr;
     margin-left: 25%;
   }
 
-  .titulorw{
+  .titulorw , .titulorm , .tituloa , .tituloe{
     font-family:  "Bebas Neue", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: bold;
-    color: black;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    padding:5px;
-    font-size: 50px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-  }
-
-  .titulorm{
-    font-family:  "Bebas Neue", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: bold;
-    color: black;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    padding:5px;
-    font-size: 50px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-  }
-
-  .tituloa{
-    font-family: "Bebas Neue", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    color: black;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    padding:5px;
-    font-size: 50px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-  }
-
-  .tituloe{
-    font-family: "Bebas Neue", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: bold;
@@ -287,3 +193,41 @@ grid-template-columns: 1fr 1fr 1fr;
     margin-left: 25%;
   }
 
+  .intro , .intros , .lastp{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    text-align: center;
+    color:black;
+    font-size: 17px;
+    margin-top: 1px solid white;
+    padding: 50px;
+    line-height: 30px;
+  }
+
+  .lastp{
+    color:rgb(179, 177, 177);
+    margin-bottom: 15%;
+    margin-top: 10%;
+  }
+.products{
+    font-family:  "Bebas Neue", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    color:rgb(4, 4, 68);
+    font-size: 17px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.products:hover{
+  color:rgb(4, 4, 68);
+  font-weight: bolder;
+  text-decoration-line: underline;
+}
