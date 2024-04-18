@@ -115,3 +115,14 @@
 .lista:hover{
   text-decoration: underline;
 }
+<<<<<<< HEAD
+=======
+
+.cart{
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 2%;
+  right: 2%;
+}
+>>>>>>> f81ecc8f86651b92e1cd849a27be0b3fbc0c06da
