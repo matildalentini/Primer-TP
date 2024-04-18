@@ -72,13 +72,14 @@
     margin-left: 70px;
   }
   
+  img{
+    height:100%;
+    max-width: 100%;}
 .men img{
-    height: 100%;
+    height: 400px;
     width: 300px;
     margin: 0.2%;
 }
-<<<<<<< HEAD
-=======
 
 .settings{
   font-family: "Roboto Mono", monospace;
@@ -120,4 +121,3 @@
 .lista:hover{
   text-decoration: underline;
 }
->>>>>>> fa74f7c5e5f0e6c3fe76ed83c136f35190a06d4d

@@ -65,9 +65,12 @@
   .R{
     margin-left: 70px;
   }
-
+img{
+    height:100%;
+    max-width: 100%;
+}
 .women img{
-    height: 100%;
+    height: 400px;
     width: 300px;
     margin: 0.2%;
 }
