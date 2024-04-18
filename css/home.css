@@ -222,7 +222,7 @@ grid-template-columns: 1fr 1fr 1fr;
 
 .identidad{
   position: absolute;
-  left: 88%; 
+  left: 90%; 
   top: 2%;
   color: black;
   font-size: 16px;
@@ -230,13 +230,17 @@ grid-template-columns: 1fr 1fr 1fr;
 }
 
 .R{
-  margin-left: 5%;
+  margin-left: 3%;
+  font-size: 14px;
+}
+.R:hover{
+  text-decoration: underline;
 }
 
 .cart{
   color: black;
-  font-size: 16px;
+  font-size: 18px;
   position: absolute;
   top: 2%;
-  right: 14%;
+  right: 12%;
 }
