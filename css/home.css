@@ -1,28 +1,5 @@
-
 body, html {
   height: 100%;
-  margin: 0;
-  
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  border:0%
-}
-
-.image-overlay {
-  position: relative;
-  margin: 1%;
-  height: 20%;
-}
-
-
-.image {      /* especificaciones para las imagenes de las categorias*/
-  transition: transform 0.8s ease;
-  height: 270%;
 }
 
 .title {
@@ -35,44 +12,6 @@ body, html {
   font-weight: 400;
   font-style: normal;
   font-size: 100px;
-}
-
-.overlay-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  background-color: rgba(0, 0, 0, 0.7); 
-  padding: 200px;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  display: inline-block;
-}
-
-/*
-.image-overlay:hover .image{      /* Agranda la imagen al pasar el mouse  
-  transform: scale(1.1); 
-} 
-
-
-.image-overlay:hover .overlay-text {    /* Muestra el texto al hacer hover 
-  opacity: 1; 
-  font-family: "Roboto Mono", monospace;
-  font-weight: 400;
-  font-style: normal;
-  color: white;
-  text-decoration: none; 
-  height: 100%%;
-} 
-*/
-
-
-/* Media query para pantallas más chicas */
-@media only screen and (max-width: 768px) {
-  .image {
-    max-width: 100%; /* Ajusta el tamaño máximo al ancho del contenedor */
-  }
 }
 
 .lista{
@@ -108,21 +47,15 @@ body, html {
   justify-content: center;
 }
 
+.lista:hover{
+  text-decoration: underline;
+}
+
 .homepic{
   width:100%;
   height:80%;
 }
 
-.title2 {
-  display: flex;
-  flex-end;
-  color: black;
-  text-decoration: none;
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 100;
-  font-style:normal;
-  font-size: 35px;
-}
 
 .credits{
   font-family: "Roboto Mono", monospace;
@@ -133,9 +66,9 @@ body, html {
   background-color: rgb(31, 30, 30);
   font-size: 10px;
   display:flex;
-  align-items: bottom left;
-  flex-start;
+  align-items: flex-end;
 }
+
 
 footer{
   font-family: "Roboto Mono", monospace;
@@ -147,9 +80,152 @@ footer{
   font-size: 10px;
 }
 
-.general{
+.ropawom1, .ropawom2{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+.image-containerw{
+  margin-left: 25%;
+}
+
+.ropamen1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.ropamen2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.image-containerm{
+  margin-left: 25%;
+}
+
+.settings{
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(234, 234, 234);
+  background-color: rgb(31, 30, 30);
+  font-size: 10px;
+  list-style-type: none;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10%;
+}
+.settings :hover{
+  text-decoration: underline;
+}
+.palito{
+  font-size: 15px;
+}
+
+.social{
+  color:rgb(186, 186, 186);
+  font-size: 30px;
+  display: inline-block;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  margin: 10px;
+  text-decoration: none;
+}
+
+  .image-joyas1{
+    margin-left: 25%;
+  }
+  
+  .accessories1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .accessories2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .image-joyas2{
+    margin-left: 25%;
+  }
+
+  .titulorw , .titulorm , .tituloa , .tituloe{
+    font-family:  "Bebas Neue", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: bold;
+    color: black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding:5px;
+    font-size: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .subt{
+    color:black;
+  text-decoration: none;
+  }
+
+  .image-elec1{
+    margin-left: 25%;
+  }
+  
+  .electronics1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .electronics2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .image-elec2{
+    margin-left: 25%;
+  }
+
+  .intro , .intros , .lastp{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    text-align: center;
+    color:black;
+    font-size: 17px;
+    margin-top: 1px solid white;
+    padding: 50px;
+    line-height: 30px;
+  }
+
+  .lastp{
+    color:rgb(179, 177, 177);
+    margin-bottom: 15%;
+    margin-top: 10%;
+  }
+.products{
+    font-family:  "Bebas Neue", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    color:rgb(4, 4, 68);
+    font-size: 17px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.products:hover{
+  color:rgb(4, 4, 68);
+  font-weight: bolder;
+  text-decoration-line: underline;
 }
