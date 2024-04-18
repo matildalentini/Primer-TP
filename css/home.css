@@ -226,6 +226,7 @@ grid-template-columns: 1fr 1fr 1fr;
   top: 2%;
   color: black;
   font-size: 16px;
+  text-decoration: none;
 }
 
 .R{
