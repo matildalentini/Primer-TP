@@ -8,6 +8,13 @@
   font-size: 35px;
 }
 
+<<<<<<< HEAD
+.seccion1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+=======
 
 .credits{
   font-family: "Roboto Mono", monospace;
@@ -20,6 +27,7 @@
   display:flex;
   align-items: bottom left;
 }
+>>>>>>> 6d5906f7a9c4fb0f051d9177d79a5b2c0d1fd2c7
 
 
 footer{
