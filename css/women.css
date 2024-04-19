@@ -69,12 +69,27 @@ img{
     height:100%;
     max-width: 100%;
 }
-.women img{
+
+.img1{
+
+}
+.seccion1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+
     height: 400px;
     width: 300px;
     margin: 0.2%;
 }
-
+.women{
+  font-size: 20px;
+  font-family:
+  justify-content: center;
+  margin-left: 1.5cm;
+  font-weight: lighter;
+}
 .settings{
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
