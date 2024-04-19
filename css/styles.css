@@ -213,6 +213,10 @@ body, html {
     right: 12%;
   }
 
+  .ultfondo{
+    background-color: ;
+  }
+
   /*LOGIN, REGISTER, CART, RECOVER, CSS EL FOOTER ES LO QUE TODOS TIENEN EN COMUN */
 
   .containerf{
@@ -295,9 +299,10 @@ body, html {
   text-decoration: underline;
   }
   
-  /* ACA ESTA EL CODIGO CSS DE LOS PRODUCTOS, HAY QUE EDITARLO*/
+  
+  /* ACA ESTA EL CODIGO CSS DE LOS PRODUCTOS, HAY QUE EDITARLO
 
-  /* WOMEN*/
+  /* WOMEN
   .title2 {
     display: flex;
     color: black;
@@ -429,7 +434,7 @@ body, html {
   right: 2%;
   }
   
-  /* ---------------------------------------------------------MEN-------------------------------------------------------------------------*/
+  /* ---------------------------------------------------------MEN-------------------------------------------------------------------------
 
   .men img{
     height: 100%;
@@ -493,7 +498,7 @@ body, html {
 
   .identidad {
     position: absolute;
-    left: 1260px; /* Adjust as needed */
+    left: 1260px; /* Adjust as needed 
     top: 20px;
     color: black;
     font-size: 16px;
@@ -561,7 +566,7 @@ body, html {
   right: 2%;
 }
 
-/*---------------------------------------------------ACCESORIOS--------------------------------------------------------------------------*/
+/*---------------------------------------------------ACCESORIOS--------------------------------------------------------------------------
 .title2 {
     display: flex;
     color: black;
@@ -618,7 +623,7 @@ body, html {
 
   .identidad {
     position: absolute;
-    left: 1260px; /* Adjust as needed */
+    left: 1260px; /* Adjust as needed 
     top: 20px;
     color: black;
     font-size: 16px;
@@ -686,7 +691,7 @@ body, html {
   right: 2%;
 }
 
-/*---------------------------------------------------ELECTRONICOS--------------------------------------------------------------------------*/
+/*---------------------------------------------------ELECTRONICOS------------------------------------------------------------------------
 .title2 {
     display: flex;
     color: black;
