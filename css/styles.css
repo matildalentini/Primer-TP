@@ -217,7 +217,13 @@ body, html {
     background-color: ;
   }
 
-  /*LOGIN, REGISTER, CART, RECOVER, CSS EL FOOTER ES LO QUE TODOS TIENEN EN COMUN */
+  @media (max-width: 420px) {       /*IPhone 12*/
+   html{
+    max-width: 420px;
+   }
+}
+
+  /*--------------------------LOGIN, REGISTER, CART, RECOVER, CSS EL FOOTER ES LO QUE TODOS TIENEN EN COMUN -------------------------------*/
 
   .containerf{
     background-color: rgb(203, 203, 203);
@@ -302,7 +308,7 @@ body, html {
   
   /* ACA ESTA EL CODIGO CSS DE LOS PRODUCTOS, HAY QUE EDITARLO
 
-  /* WOMEN
+  /* -----------------------------------------------------------WOMEN-----------------------------------------------------------------
   .title2 {
     display: flex;
     color: black;
@@ -434,7 +440,7 @@ body, html {
   right: 2%;
   }
   
-  /* ---------------------------------------------------------MEN-------------------------------------------------------------------------
+  /* ---------------------------------------------------------MEN--------------------------------------------------------------------
 
   .men img{
     height: 100%;
@@ -702,7 +708,7 @@ body, html {
     font-size: 35px;
   }
 
-  .credits{
+  .credits2{
     font-family: "Roboto Mono", monospace;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -714,7 +720,7 @@ body, html {
     align-items: bottom left;
   }
 
-  footer{
+  .footer2{
     font-family: "Roboto Mono", monospace;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -757,6 +763,7 @@ body, html {
   .R{
     margin-left: 70px;
   }
+
   img{
     height:100%;
     max-width: auto;}
@@ -767,7 +774,7 @@ body, html {
     margin: 0.2%;
 }
 
-.settings{
+.settings2{
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -781,14 +788,14 @@ body, html {
   justify-content: space-between;
   padding: 2%;
 }
-.settings :hover{
+.settings2 :hover{
   text-decoration: underline;
 }
 .palito{
   font-size: 15px;
 }
 
-.social{
+.social2{
   color: rgb(50, 50, 50);
   font-size: 20px;
   margin: 10px;
@@ -796,7 +803,7 @@ body, html {
   border-left:100px;
 }
 
-.media{
+.media2{
   text-align: center;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
@@ -815,3 +822,4 @@ body, html {
   top: 2%;
   right: 2%;
 }
+*/
