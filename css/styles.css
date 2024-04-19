@@ -213,7 +213,7 @@ body, html {
     right: 12%;
   }
 
-  /*LOGIN CSS */
+  /*LOGIN, REGISTER, CART, RECOVER, CSS EL FOOTER ES LO QUE TODOS TIENEN EN COMUN */
 
   .containerf{
     background-color: rgb(203, 203, 203);
@@ -294,4 +294,5 @@ body, html {
   .lista:hover{
   text-decoration: underline;
   }
+  
   
