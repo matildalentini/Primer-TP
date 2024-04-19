@@ -1,3 +1,9 @@
+.men img{
+    height: 100%;
+    width: 300px;
+    margin: 0.2%;
+}
+
 .title2 {
     display: flex;
     flex-end;
@@ -66,9 +72,11 @@
     margin-left: 70px;
   }
   
+  img{
+    height:100%;
+    max-width: 100%;}
 .men img{
-    
-    height: 100%;
+    height: 400px;
     width: 300px;
     margin: 0.2%;
 }
@@ -113,3 +121,14 @@
 .lista:hover{
   text-decoration: underline;
 }
+<<<<<<< HEAD
+=======
+
+.cart{
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 2%;
+  right: 2%;
+}
+>>>>>>> f81ecc8f86651b92e1cd849a27be0b3fbc0c06da
