@@ -1,6 +1,7 @@
 /* ---------------------------------------------------HOME CSS----------------------------------------------------------- */
 body, html {
     height: 100%;
+    scroll-behavior: smooth;
   }
   .title {
     display: flex;
@@ -81,6 +82,41 @@ body, html {
         height: auto;
         margin-bottom: 10px;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+.container-image-women{
+  display: flex;
+  flex-wrap: wrap;
+  
+  
+}
+
+
+.container-image-women img{
+ 
+height: 300px;
+
+
+}
+
+.image-especial-women{
+  width: 25%;
+}
+.image-especial-women img{
+  width: 100%;
+
+}
+
   .settings{
     font-family: "Roboto Mono", monospace;
     font-optical-sizing: auto;
