@@ -1,8 +1,10 @@
 /* ---------------------------------------------------HOME CSS----------------------------------------------------------- */
-body, html {
+
+  body, html {
     height: 100%;
     scroll-behavior: smooth;
   }
+
   .title {
     display: flex;
     justify-content: center;
@@ -14,6 +16,18 @@ body, html {
     font-style: normal;
     font-size: 100px;
   }
+
+  .title2{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 100;
+    font-style:normal;
+    font-size: 35px;
+
+  }
+
   .lista{
     display: flex;
     justify-content: center;
@@ -327,16 +341,7 @@ height: 300px;
   text-decoration: underline;
   }
   
-  .title2{
-    display: flex;
-    color: black;
-    text-decoration: none;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 100;
-    font-style:normal;
-    font-size: 35px;
-
-  }
+  
   .identidad{
     position: absolute;
     left: 1260px;
@@ -359,17 +364,7 @@ height: 300px;
 
   /* -----------------------------------------------------------WOMEN-----------------------------------------------------------------
   
-  .title2 {
-    
-  }
   
-  
-  
-  
-  
-  
-   
-  }
  
   
   
@@ -434,15 +429,7 @@ height: 300px;
     margin: 0.2%;
 }
 
-.title2 {
-    display: flex;
-    color: black;
-    text-decoration: none;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 100;
-    font-style:normal;
-    font-size: 35px;
-  }
+
 
   .credits{
     font-family: "Roboto Mono", monospace;
@@ -559,15 +546,7 @@ height: 300px;
 }
 
 /*---------------------------------------------------ACCESORIOS--------------------------------------------------------------------------
-.title2 {
-    display: flex;
-    color: black;
-    text-decoration: none;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 100;
-    font-style:normal;
-    font-size: 35px;
-  }
+
 
   .credits{
     font-family: "Roboto Mono", monospace;
@@ -684,15 +663,7 @@ height: 300px;
 }
 
 /*---------------------------------------------------ELECTRONICOS------------------------------------------------------------------------
-.title2 {
-    display: flex;
-    color: black;
-    text-decoration: none;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 100;
-    font-style:normal;
-    font-size: 35px;
-  }
+
 
   .credits2{
     font-family: "Roboto Mono", monospace;
