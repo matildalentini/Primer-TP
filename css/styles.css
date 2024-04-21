@@ -61,34 +61,26 @@ body, html {
     font-size: 10px;
   }
   .ropawom1, .ropawom2{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .ropamen1{
+  .ropamen1, .ropamen2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
-  .ropamen2{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
+  
+
   .image-containera, .image-containere, .image-containerm, .image-containerw {
     display: flex;
     flex-wrap: wrap;
-      justify-content: space-between;}
+    justify-content: space-between;
+    }
   .image-containera img, .image-containere img, .image-containerm img, .image-containerw img {
         width: calc(25% - 10px); 
         height: auto;
         margin-bottom: 10px;
     }
-
-
-
-
-
-
-
 
 
 
