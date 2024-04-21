@@ -206,6 +206,13 @@
     margin-top: 100px;
   }
 
+
+  /* footer de cart, login, recover y register */
+  .containerf{
+    background-color: rgb(203, 203, 203);
+  }
+
+
   .cart{
     color: black;
     font-size: 18px;  /* habia otro codigo en men o women creo que estaba puesto en 20px */
@@ -368,27 +375,39 @@
   }
 
 
-  .women img{
-    height: 400px;
-    width: 300px;
-    margin: 0.2%;
-  }
+  /* no tengo idea q es esto  */
 
   img{
     height:100%;
     max-width: 100%;
   }
 
-
-
-
-  /*--------------------------LOGIN, REGISTER, CART, RECOVER, CSS EL FOOTER ES LO QUE TODOS TIENEN EN COMUN -------------------------------*/
-
-  .containerf{
-    background-color: rgb(203, 203, 203);
+  .women img{
+    height: 400px;
+    width: 300px;
+    margin: 0.2%;
   }
 
- 
+  .men img{
+    height: 400px;
+    width: 300px;
+    margin: 0.2%;
+  }
+
+  .accessories img{
+    height: 400px;
+    width: 300px;
+    margin: 0.2%;
+  }
+
+  .electronics img{
+    height: 25%;
+    width:300px;
+   margin: 0.2%;
+  }
+
+
+/* ---------------------------------------------------- MEDIA QUERIES ------------------------------------------------------- */
   
   
   @media (max-width: 420px) {       /*IPhone 12*/
@@ -415,35 +434,10 @@
   
   
 
-  /* ACA ESTA EL CODIGO CSS DE LOS PRODUCTOS, HAY QUE EDITARLO
-
-  /* -----------------------------------------------------------WOMEN-----------------------------------------------------------------
-  
-  
- 
-  
-
-  
- 
-  
-  
- 
-  
-  
-
-  
 
  
   
-  /* ---------------------------------------------------------MEN--------------------------------------------------------------------
-
-  .men img{
-    height: 100%;
-    width: 300px;
-    margin: 0.2%;
-}
-
-
+ 
 
 
 
@@ -474,14 +468,6 @@
  
   
   
-  img{
-    height:100%;
-    max-width: 100%;}
-.men img{
-    height: 400px;
-    width: 300px;
-    margin: 0.2%;
-}
 
 
 
@@ -510,15 +496,7 @@
 
 
 
-  img{
-    height:100%;
-    max-width: 100%;}
 
-.accessories img{
-    height: 400px;
-    width: 300px;
-    margin: 0.2%;
-}
 
 
 
@@ -543,21 +521,3 @@
   }
 
 
-
-
-
-
-aca estaba el R
-  img{
-    height:100%;
-    max-width: auto;}
-
-.electronics img{
-    height: 25%;
-    width:300px;
-    margin: 0.2%;
-}
-
-
-
-*/
