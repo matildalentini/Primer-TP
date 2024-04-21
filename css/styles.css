@@ -102,9 +102,102 @@
     text-align: center;
   }
 
+  .settings{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    color: rgb(234, 234, 234);
+    background-color: rgb(31, 30, 30);
+    /* 
+    color: rgb(50, 50, 50);
+    background-color: rgb(203, 203, 203); 
+    fijarse cual de los dos codigos es el que va. En el resto de codigos esta el 50 primero, no se cual es el que va
+     */
+
+    font-size: 10px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10%;
+  }
+
+  .settings :hover{
+    text-decoration: underline;
+  }
+  
+
+  .settings2{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(50, 50, 50);
+    /*  background-color: rgb(203, 203, 203); 
+    Esto tambien estaba agregado a los otros settings2, fijarse si va o no */
+    font-size: 10px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
+    }
+
+    .settings2 :hover{
+    text-decoration: underline;
+    }
+
+    .palito{
+      font-size: 15px;
+    }
+
+    .palito2{
+      /*no tiene nada? lo tienen cart, login, recover y register */
+    }
+    
+    .social{
+      color:rgb(186, 186, 186);
+      /* color: rgb(50, 50, 50);   otro social de men creo tiene este color*/
+      font-size: 30px;
+      display: inline-block;
+      justify-content: center;
+      align-items: center;
+      margin: 10px;
+      text-decoration: none;
+      /* border-left:100px;   y aca tambien tiene este border */
+    }
+
+    .social2{
+      color: rgb(50, 50, 50);
+      font-size: 20px;
+      margin: 10px;
+      text-decoration: none;
+      border-left:100px;
+    }
+      
+    
+  .media{
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding:40px;
+    margin-top: 100px;
+  }
+
+  .media2{
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding:40px;
+    margin-top: 100px;
+  }
+
+        
 
  
-
+/*     unificar esto      */
   .ropawom1, .ropawom2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -126,13 +219,13 @@
   
   
 
-  .image-containera, .image-containere, .image-containerm, .image-containerw {
+  .image-containera, .image-containere, .image-containerm, .image-containerw{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     }
 
-  .image-containera img, .image-containere img, .image-containerm img, .image-containerw img {
+  .image-containera img, .image-containere img, .image-containerm img, .image-containerw img{
         width: calc(25% - 10px); 
         height: auto;
         margin-bottom: 10px;
@@ -149,35 +242,9 @@
 
 
 
-  .settings{
-    font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    color: rgb(234, 234, 234);
-    background-color: rgb(31, 30, 30);
-    font-size: 10px;
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10%;
-  }
-  .settings :hover{
-    text-decoration: underline;
-  }
-  .palito{
-    font-size: 15px;
-  }
-  .social{
-    color:rgb(186, 186, 186);
-    font-size: 30px;
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-    text-decoration: none;
-  }
+ 
+
+
    
   
     .titulorw , .titulorm , .tituloa , .tituloe{
@@ -307,39 +374,12 @@
  
   
   
-  .settings2{
-  font-family: "Roboto Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  color: rgb(50, 50, 50);
-  font-size: 10px;
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 2%;
-  }
-  .settings2 :hover{
-  text-decoration: underline;
-  }
+
   
   
-  .social2{
-  color: rgb(50, 50, 50);
-  font-size: 20px;
-  margin: 10px;
-  text-decoration: none;
-  border-left:100px;
-  }
+
   
-  .media2{
-  text-align: center;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  padding:40px;
-  margin-top: 100px;
-  }
+ 
   
   
   
@@ -368,45 +408,12 @@
   
  
   
+
   
-  .settings{
-  font-family: "Roboto Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  color: rgb(50, 50, 50);
-  background-color: rgb(203, 203, 203);
-  font-size: 10px;
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 2%;
-  }
-  .settings :hover{
-  text-decoration: underline;
-  }
-  .palito{
-  font-size: 15px;
-  }
+ 
   
   
-  .social{
-  color: rgb(50, 50, 50);
-  font-size: 20px;
-  margin: 10px;
-  text-decoration: none;
-  border-left:100px;
-  }
-  
-  
-  .media{
-  text-align: center;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  padding:40px;
-  margin-top: 100px;
-  }
+ 
   
   
 
@@ -476,42 +483,9 @@
     margin: 0.2%;
 }
 
-.settings{
-  font-family: "Roboto Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  color: rgb(50, 50, 50);
-  background-color: rgb(203, 203, 203);
-  font-size: 10px;
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 2%;
-}
-.settings :hover{
-  text-decoration: underline;
-}
-.palito{
-  font-size: 15px;
-}
 
-.social{
-  color: rgb(50, 50, 50);
-  font-size: 20px;
-  margin: 10px;
-  text-decoration: none;
-  border-left:100px;
-}
 
-.media{
-  text-align: center;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  padding:40px;
-  margin-top: 100px;
-}
+
 
 
 .cart{
@@ -561,42 +535,8 @@
     margin: 0.2%;
 }
 
-.settings{
-  font-family: "Roboto Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  color: rgb(50, 50, 50);
-  background-color: rgb(203, 203, 203);
-  font-size: 10px;
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 2%;
-}
-.settings :hover{
-  text-decoration: underline;
-}
-.palito{
-  font-size: 15px;
-}
 
-.social{
-  color: rgb(50, 50, 50);
-  font-size: 20px;
-  margin: 10px;
-  text-decoration: none;
-  border-left:100px;
-}
 
-.media{
-  text-align: center;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  padding:40px;
-  margin-top: 100px;
-}
 
 
 .cart{
@@ -649,42 +589,7 @@
     margin: 0.2%;
 }
 
-.settings2{
-  font-family: "Roboto Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  color: rgb(50, 50, 50);
-  background-color: rgb(203, 203, 203);
-  font-size: 10px;
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 2%;
-}
-.settings2 :hover{
-  text-decoration: underline;
-}
-.palito{
-  font-size: 15px;
-}
 
-.social2{
-  color: rgb(50, 50, 50);
-  font-size: 20px;
-  margin: 10px;
-  text-decoration: none;
-  border-left:100px;
-}
-
-.media2{
-  text-align: center;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  padding:40px;
-  margin-top: 100px;
-}
 
 
 
