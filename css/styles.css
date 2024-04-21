@@ -96,6 +96,20 @@
     font-size: 10px;
   }
 
+  /* tengo este otro codigo, no se cual va 
+  footer{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(50, 50, 50);
+    background-color: rgb(203, 203, 203);
+    font-size: 10px;
+    text-align: center;
+  }
+*/
+
+
   .credits2{
     font-family: "Roboto Mono", monospace;
     font-optical-sizing: auto;
@@ -114,9 +128,12 @@
     font-weight: 400;
     font-style: normal;
     color: rgb(50, 50, 50);
+    /* background-color: rgb(203, 203, 203); en otro codigo se le agrega esto, no se si va o no */
     font-size: 10px;
     text-align: center;
   }
+
+
 
   .settings{
     font-family: "Roboto Mono", monospace;
@@ -416,108 +433,3 @@
     }
  }
    
-
- 
-  
-  
- 
-  
-  
-
-  
-  
-
-  
- 
-  
-  
-  
-  
-
-
- 
-  
- 
-
-
-
-  footer{
-    font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    color: rgb(50, 50, 50);
-    background-color: rgb(203, 203, 203);
-    font-size: 10px;
-    
-  }
-
-   footer{
-    font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    color: rgb(234, 234, 234);
-    background-color: rgb(31, 30, 30);
-    font-size: 10px;
-    text
-  }
- 
-  
-
- 
-  
-  
-
-
-
-
-
-
-
-
-/*---------------------------------------------------ACCESORIOS--------------------------------------------------------------------------
-
-
-
-  footer{
-    font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    color: rgb(50, 50, 50);
-    background-color: rgb(203, 203, 203);
-    font-size: 10px;
-    text-align: center;
-  }
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-/*---------------------------------------------------ELECTRONICOS------------------------------------------------------------------------
-
-
- 
-
-  .footer2{
-    font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    color: rgb(50, 50, 50);
-    background-color: rgb(203, 203, 203);
-    font-size: 10px;
-    text-align: center;
-  }
-
-
