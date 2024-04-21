@@ -5,7 +5,7 @@
     scroll-behavior: smooth;
   }
 
-  .title {
+  .title{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,11 +53,11 @@
     text-decoration: underline;
   }
 
-
   .homepic{
     width:100%;
     height:80%;
   }
+
   .credits{
     font-family: "Roboto Mono", monospace;
     font-optical-sizing: auto;
@@ -69,7 +69,8 @@
     display:flex;
     align-items: flex-end;
   }
-  footer{
+
+  .footer{
     font-family: "Roboto Mono", monospace;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -78,6 +79,32 @@
     background-color: rgb(31, 30, 30);
     font-size: 10px;
   }
+
+  .credits2{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(50, 50, 50);
+    background-color: rgb(203, 203, 203);
+    font-size: 10px;
+    display:flex;
+    align-items: bottom left;
+  }
+
+  .footer2{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(50, 50, 50);
+    font-size: 10px;
+    text-align: center;
+  }
+
+
+ 
+
   .ropawom1, .ropawom2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -94,38 +121,23 @@
     flex-wrap: wrap;
     justify-content: space-between;
     }
+
   .image-containera img, .image-containere img, .image-containerm img, .image-containerw img {
         width: calc(25% - 10px); 
         height: auto;
         margin-bottom: 10px;
     }
 
+    .image-especial-women{
+      width: 25%;
+    }
+    
+    .image-especial-women img{
+      width: 100%;
+    }
 
 
 
-
-.container-image-women{
-  display: flex;
-  flex-wrap: wrap;
-  
-  
-}
-
-
-.container-image-women img{
- 
-height: 300px;
-
-
-}
-
-.image-especial-women{
-  width: 25%;
-}
-.image-especial-women img{
-  width: 100%;
-
-}
 
   .settings{
     font-family: "Roboto Mono", monospace;
@@ -185,8 +197,9 @@ height: 300px;
       justify-content: center;
       align-items: center;
       text-decoration: none;
-      
     }
+
+
     .subt{
       color:black;
     text-decoration: none;
@@ -275,6 +288,10 @@ height: 300px;
    }
 }
 
+/*---------------------------------------------------------- CATEGORY ------------------------------------------------------------*/
+
+
+
   /*--------------------------LOGIN, REGISTER, CART, RECOVER, CSS EL FOOTER ES LO QUE TODOS TIENEN EN COMUN -------------------------------*/
 
   .containerf{
@@ -284,27 +301,13 @@ height: 300px;
  
   
   
-  .credits2{
-    font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    color: rgb(50, 50, 50);
-    font-size: 10px;
-    display:flex;
-    align-items: bottom left;
-    
-  }
+ 
+   
+
+ 
   
-  .footer2{
-    font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    color: rgb(50, 50, 50);
-    font-size: 10px;
-    text-align: center;
-  }
+  
+ 
   
   
   .settings2{
@@ -429,17 +432,7 @@ height: 300px;
 
 
 
-  .credits{
-    font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    color: rgb(50, 50, 50);
-    background-color: rgb(203, 203, 203);
-    font-size: 10px;
-    display:flex;
-    align-items: bottom left;
-  }
+
 
   footer{
     font-family: "Roboto Mono", monospace;
@@ -449,9 +442,19 @@ height: 300px;
     color: rgb(50, 50, 50);
     background-color: rgb(203, 203, 203);
     font-size: 10px;
-    text-align: center;
+    
   }
 
+   footer{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(234, 234, 234);
+    background-color: rgb(31, 30, 30);
+    font-size: 10px;
+    text
+  }
  
   
 
@@ -525,17 +528,6 @@ height: 300px;
 /*---------------------------------------------------ACCESORIOS--------------------------------------------------------------------------
 
 
-  .credits{
-    font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    color: rgb(50, 50, 50);
-    background-color: rgb(203, 203, 203);
-    font-size: 10px;
-    display:flex;
-    align-items: bottom left;
-  }
 
   footer{
     font-family: "Roboto Mono", monospace;
@@ -621,17 +613,7 @@ height: 300px;
 /*---------------------------------------------------ELECTRONICOS------------------------------------------------------------------------
 
 
-  .credits2{
-    font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    color: rgb(50, 50, 50);
-    background-color: rgb(203, 203, 203);
-    font-size: 10px;
-    display:flex;
-    align-items: bottom left;
-  }
+ 
 
   .footer2{
     font-family: "Roboto Mono", monospace;
