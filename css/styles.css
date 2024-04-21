@@ -58,6 +58,22 @@
     height:80%;
   }
 
+  .titulorw , .titulorm , .tituloa , .tituloe{
+    font-family:  "Bebas Neue", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: bold;
+    color: black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding:5px;
+    font-size: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+
   .credits{
     font-family: "Roboto Mono", monospace;
     font-optical-sizing: auto;
@@ -152,10 +168,6 @@
     .palito{
       font-size: 15px;
     }
-
-    .palito2{
-      /*no tiene nada? lo tienen cart, login, recover y register */
-    }
     
     .social{
       color:rgb(186, 186, 186);
@@ -202,8 +214,32 @@
     right: 12%;  /* y esto en 2% */
   }
 
+ 
+
+
+
 
   /*solo esta en el index*/
+
+  .products{
+    font-family:  "Bebas Neue", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    color:rgb(4, 4, 68);
+    font-size: 17px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+
+  .products:hover{
+    font-weight: bolder;
+    text-decoration-line: underline;
+  }
 
   .subt{
     color:black;
@@ -232,11 +268,37 @@
     text-decoration: none;
   }  Estaba este codigo y lo saque porque era el que modificaba lo de register el carrito y login*/
 
-  
-        
+  .R{
+    margin-left: 3%;
+    font-size: 14px;
+  }
+  .R:hover{
+    text-decoration: underline;
+  }
 
- 
-/*     unificar esto      */
+  .lastp{
+    color:rgb(179, 177, 177);
+    margin-bottom: 15%;
+    margin-top: 10%;
+  }  /* solo en index y producto  no se si en producto deberia estar o no */
+   
+
+  .intro , .intros , .lastp{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    text-align: center;
+    color:black;
+    font-size: 17px;
+    margin-top: 1px solid white;
+    padding: 50px;
+    line-height: 30px;
+  }
+     
+  
+
   .ropawom1, .ropawom2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -247,122 +309,31 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .image-joyas1, .image-joyas2{
-    margin-left: 25%;
-  }
   .accessories1, .accessories2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
   
-  
-  
-
-  .image-containera, .image-containere, .image-containerm, .image-containerw{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  .electronics1, .electronics2{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
     }
 
-  .image-containera img, .image-containere img, .image-containerm img, .image-containerw img{
-        width: calc(25% - 10px); 
-        height: auto;
-        margin-bottom: 10px;
-    }
+ 
 
-    .image-especial-women{
-      width: 25%;
+
+  
+    .image-elec1, .image-elec2{
+      margin-left: 25%;
     }
     
-    .image-especial-women img{
-      width: 100%;
-    }
-
-
-
-
- 
-
-
-   
   
-    .titulorw , .titulorm , .tituloa , .tituloe{
-      font-family:  "Bebas Neue", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 400;
-      font-style: bold;
-      color: black;
-      border-top: 1px solid black;
-      border-bottom: 1px solid black;
-      padding:5px;
-      font-size: 50px;
-      display:flex;
-      justify-content: center;
-      align-items: center;
-      text-decoration: none;
+    .image-joyas1, .image-joyas2{
+      margin-left: 25%;
     }
 
 
-   
-    .image-elec1{
-      margin-left: 25%;
-    }
-    .electronics1{
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-    }
-    .electronics2{
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-    }
-    .image-elec2{
-      margin-left: 25%;
-    }
-    .intro , .intros , .lastp{
-      font-family: "Open Sans", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 300;
-      font-style: normal;
-      font-variation-settings: "wdth" 100;
-      text-align: center;
-      color:black;
-      font-size: 17px;
-      margin-top: 1px solid white;
-      padding: 50px;
-      line-height: 30px;
-    }
-    .lastp{
-      color:rgb(179, 177, 177);
-      margin-bottom: 15%;
-      margin-top: 10%;
-    }
-  .products{
-      font-family:  "Bebas Neue", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 300;
-      font-style: normal;
-      text-align: center;
-      color:rgb(4, 4, 68);
-      font-size: 17px;
-      text-decoration: none;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-right: 10px;
-  }
-  .products:hover{
-    color:rgb(4, 4, 68);
-    font-weight: bolder;
-    text-decoration-line: underline;
-  }
- 
-  .R{
-    margin-left: 3%;
-    font-size: 14px;
-  }
-  .R:hover{
-    text-decoration: underline;
-  }
+
 
 
  
@@ -374,6 +345,40 @@
 }
 
 /*---------------------------------------------------------- CATEGORY ------------------------------------------------------------*/
+
+
+.image-containera, .image-containere, .image-containerm, .image-containerw{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  }
+
+.image-containera img, .image-containere img, .image-containerm img, .image-containerw img{
+      width: calc(25% - 10px); 
+      height: auto;
+      margin-bottom: 10px;
+  }
+
+  .image-especial-women{
+    width: 25%;
+  }
+  
+  .image-especial-women img{
+    width: 100%;
+  }
+
+
+  .women img{
+    height: 400px;
+    width: 300px;
+    margin: 0.2%;
+  }
+
+  img{
+    height:100%;
+    max-width: 100%;
+  }
+
 
 
 
@@ -405,17 +410,7 @@
   
   
   
-  .R{
-    margin-left: 70px;}
-    img{
-      height:100%;
-      max-width: 100%;
-    }
-    .women img{
-      height: 400px;
-      width: 300px;
-      margin: 0.2%;
-    }
+
   /* ACA ESTA EL CODIGO CSS DE LOS PRODUCTOS, HAY QUE EDITARLO
 
   /* -----------------------------------------------------------WOMEN-----------------------------------------------------------------
@@ -474,9 +469,6 @@
 
  
   
-  .R{
-    margin-left: 70px;
-  }
   
   img{
     height:100%;
@@ -492,13 +484,7 @@
 
 
 
-.cart{
-  color: black;
-  font-size: 20px;
-  position: absolute;
-  top: 2%;
-  right: 2%;
-}
+
 
 /*---------------------------------------------------ACCESORIOS--------------------------------------------------------------------------
 
@@ -519,9 +505,7 @@
 
 
 
-  .R{
-    margin-left: 70px;
-  }
+
   img{
     height:100%;
     max-width: 100%;}
@@ -536,13 +520,7 @@
 
 
 
-.cart{
-  color: black;
-  font-size: 20px;
-  position: absolute;
-  top: 2%;
-  right: 2%;
-}
+
 
 /*---------------------------------------------------ELECTRONICOS------------------------------------------------------------------------
 
@@ -565,11 +543,7 @@
 
 
 
-  
-  .R{
-    margin-left: 70px;
-  }
-
+aca estaba el R
   img{
     height:100%;
     max-width: auto;}
@@ -582,13 +556,4 @@
 
 
 
-
-
-.cart{
-  color: black;
-  font-size: 20px;
-  position: absolute;
-  top: 2%;
-  right: 2%;
-}
 */
