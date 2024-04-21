@@ -24,7 +24,7 @@
     font-family: "Bebas Neue", sans-serif;
     font-weight: 100;
     font-style:normal;
-    font-size: 35px;
+    font-size: 50px;
 
   }
 
@@ -236,6 +236,14 @@
     position: absolute;
     top: 2%;
     right: 12%;  /* y esto en 2% */
+  }
+
+  .cartCategory{
+    color: black;
+    font-size: 23px;
+    position: absolute;
+    top: 2%;
+    right: 2%;
   }
 
  
