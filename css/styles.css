@@ -114,6 +114,16 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  .image-joyas1, .image-joyas2{
+    margin-left: 25%;
+  }
+  .accessories1, .accessories2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  
   
 
   .image-containera, .image-containere, .image-containerm, .image-containerw {
@@ -168,22 +178,9 @@
     margin: 10px;
     text-decoration: none;
   }
-    .image-joyas1{
-      margin-left: 25%;
-    }
-    .accessories1{
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-    }
-    .accessories2{
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-    }
-    .image-joyas2{
-      margin-left: 25%;
-    }
+   
+  
     .titulorw , .titulorm , .tituloa , .tituloe{
-    
       font-family:  "Bebas Neue", sans-serif;
       font-optical-sizing: auto;
       font-weight: 400;
