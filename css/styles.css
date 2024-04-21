@@ -1,4 +1,4 @@
-/* ---------------------------------------------------HOME CSS----------------------------------------------------------- */
+/* ---------------------------------------------------CSS GENERAL----------------------------------------------------------- */
 
   body, html {
     height: 100%;
@@ -219,7 +219,7 @@
 
 
 
-  /*solo esta en el index*/
+  /* ------------------------------------------ solo esta en el index ------------------------------------------------------------*/
 
   .products{
     font-family:  "Bebas Neue", sans-serif;
@@ -298,7 +298,7 @@
   }
      
   
-
+/* contenedores grandes "section" */
   .ropawom1, .ropawom2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -321,28 +321,28 @@
 
  
 
-
-  
+/* sub contenedores "divs" */
     .image-elec1, .image-elec2{
       margin-left: 25%;
     }
-    
   
     .image-joyas1, .image-joyas2{
       margin-left: 25%;
     }
 
+    .image-men1, .image-men2{
+      margin-left: 25%;
+    }
 
+    .image-women1, .image-women2{
+      margin-left: 25%;
+    }
 
 
 
  
 
-  @media (max-width: 420px) {       /*IPhone 12*/
-   html{
-    max-width: 420px;
-   }
-}
+
 
 /*---------------------------------------------------------- CATEGORY ------------------------------------------------------------*/
 
@@ -391,7 +391,11 @@
  
   
   
- 
+  @media (max-width: 420px) {       /*IPhone 12*/
+    html{
+     max-width: 420px;
+    }
+ }
    
 
  
