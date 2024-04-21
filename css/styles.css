@@ -16,23 +16,6 @@
     font-style: normal;
     font-size: 100px;
   }
-<<<<<<< HEAD
-  .titulorw , .titulorm , .tituloa , .tituloe{
-    
-    font-family:  "Bebas Neue", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: bold;
-    color: black;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    padding:5px;
-    font-size: 50px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;}
-=======
 
   .title2{
     display: flex;
@@ -41,10 +24,9 @@
     font-family: "Bebas Neue", sans-serif;
     font-weight: 100;
     font-style:normal;
-    font-size: 35px;
+    font-size: 50px;
 
   }
->>>>>>> d5de2f380af9e6f83cc32409656282fff76695c4
 
   .lista{
     display: flex;
@@ -103,12 +85,8 @@
     display:flex;
     align-items: flex-end;
   }
-<<<<<<< HEAD
-footer{
-=======
 
   .footer{
->>>>>>> d5de2f380af9e6f83cc32409656282fff76695c4
     font-family: "Roboto Mono", monospace;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -154,93 +132,9 @@ footer{
     font-size: 10px;
     text-align: center;
   }
-<<<<<<< HEAD
-  .ropamen2{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  
 
 
 
-
-
-
-.
-
-
-
-
-
-.container-image-women{
-  display: flex;
-  flex-wrap: wrap;
-  
-  
-}
-
-
-.container-image-women img{
-  width: 200px;
-  height: 250px;
-  padding-left: 0.4cm;
-  padding-right: 0.4cm;
-
-
-
-}
-.image-especial-women{
-  display: flex;
-  flex-wrap: wrap;
-}
-.image-especial-women img{
-  width: 200px;
-  height: 250px;
-  padding-left: 0.4cm;
-  padding-right: 0.4cm;
-
-}
-
-.container-image-men{
-  display: flex;
-  flex-wrap: wrap;
-  
-  
-}
-
-.container-image-men img{
- 
-  width: 200px;
-  height: 250px;
-  padding-left: 0.4cm;
-  padding-right: 0.4cm;
-}
-
-.container-image-accesories{
-  display: flex;
-  flex-wrap: wrap;
-}
-.container-image-accesories img{
-  width: 200px;
-  height: 250px;
-  padding-left: 0.4cm;
-  padding-right: 0.4cm;
-}
-.container-image-electronics{
-  display: flex;
-  flex-wrap: wrap;
-}
-.container-image-electronics img{
-  width: 200px;
-  height: 250px;
-  padding-left: 0.4cm;
-  padding-right: 0.4cm;
-}
-=======
-
-
-
->>>>>>> d5de2f380af9e6f83cc32409656282fff76695c4
   .settings{
     font-family: "Roboto Mono", monospace;
     font-optical-sizing: auto;
@@ -344,6 +238,14 @@ footer{
     right: 12%;  /* y esto en 2% */
   }
 
+  .cartCategory{
+    color: black;
+    font-size: 23px;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+  }
+
  
 
 
@@ -363,78 +265,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
-    margin: 10px;
-    text-decoration: none;
-  }
-    .image-joyas1{
-      margin-left: 25%;
-    }
-    .accessories1{
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-    }
-    .accessories2{
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-    }
-    .image-joyas2{
-      margin-left: 25%;
-    }
-    
-    
-    .subt{
-      color:black;
-    text-decoration: none;
-    }
-    .image-elec1{
-      margin-left: 25%;
-    }
-    .electronics1{
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-    }
-    .electronics2{
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-    }
-    .image-elec2{
-      margin-left: 25%;
-    }
-    .intro , .intros , .lastp{
-      font-family: "Open Sans", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 300;
-      font-style: normal;
-      font-variation-settings: "wdth" 100;
-      text-align: center;
-      color:black;
-      font-size: 17px;
-      margin-top: 1px solid white;
-      padding: 50px;
-      line-height: 30px;
-    }
-    .lastp{
-      color:rgb(179, 177, 177);
-      margin-bottom: 15%;
-      margin-top: 10%;
-    }
-  .products{
-      font-family:  "Bebas Neue", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 300;
-      font-style: normal;
-      text-align: center;
-      color:rgb(4, 4, 68);
-      font-size: 17px;
-      text-decoration: none;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-right: 10px;
-=======
     margin-right: 10px;
->>>>>>> d5de2f380af9e6f83cc32409656282fff76695c4
   }
 
   .products:hover{
@@ -477,7 +308,6 @@ footer{
     text-decoration: underline;
   }
 
-<<<<<<< HEAD
   .ultfondo{
     background-color: rgb(203, 203, 203);
   }
@@ -595,13 +425,11 @@ footer{
   
   
   
-=======
   .lastp{
     color:rgb(179, 177, 177);
     margin-bottom: 15%;
     margin-top: 10%;
   }  /* solo en index y producto  no se si en producto deberia estar o no */
->>>>>>> d5de2f380af9e6f83cc32409656282fff76695c4
    
 
   .intro , .intros , .lastp{
