@@ -411,19 +411,35 @@ text-decoration: none;
   }
 
 /* sub contenedores "divs" */
-  .image-elec1, .image-elec2{
-    margin-left: 25%;
+.producto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
   }
-  .image-joyas1, .image-joyas2{
-    margin-left: 25%;
-  }
-  .image-men1, .image-men2{
-    margin-left: 25%;
-  }
-  .image-women1, .image-women2{
-    margin-left: 25%;
+  .price, .description {
+    margin-bottom: 5px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: black;
+    
   }
 
+  .add-to-cart {
+    padding: 4px 8px;
+    background-color: #818181;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #303030;
+  }
 /* ---------------------------------------------------------- CATEGORY ------------------------------------------------------------ */
   img{
    height:100%;
