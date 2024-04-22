@@ -353,16 +353,13 @@ height: 300px;
     font-size: 16px;
   }
   .R{
-    margin-left: 70px;}
+    margin-left: 5%;}
+
     img{
       height:100%;
       max-width: 100%;
     }
-    .women img{
-      height: 400px;
-      width: 300px;
-      margin: 0.2%;
-    }
+
   /* ACA ESTA EL CODIGO CSS DE LOS PRODUCTOS, HAY QUE EDITARLO
 
   /* -----------------------------------------------------------WOMEN-----------------------------------------------------------------
