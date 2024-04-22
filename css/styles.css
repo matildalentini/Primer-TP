@@ -259,22 +259,6 @@ footer{
   right: 2%;
 }
 
-
-<<<<<<< HEAD
-.registerImage{
-  height: 400px;
-  background-image: url(../img/homepic2.jpeg);
-  opacity: 0.9;
-  background-repeat: no-repeat;
-  background-position: 100%;
-  background-attachment: scroll;
-  background-size: cover;
-  margin: 20px;
-}
-
-
-=======
->>>>>>> 41f88b12452f909d4e7636f6dbc600b22ee79aff
 .register{
   width: 300px; 
   margin: auto ; 
@@ -467,8 +451,7 @@ text-decoration: none;
   max-width: 100%;
 }
 
-.categoriaHombre{
-}
+
 
 .categoriaAccesorios{
   display: grid;
@@ -476,24 +459,16 @@ text-decoration: none;
   max-width: 100%;
 }
 
-.categoriaElectronicos{
-}
 
 
 
-.contenedoremujer1, .contenedoremujer2, .contenedoremujer3 {
-
-}
 
 .contenedorhombre1, .contenedorhombre2, .contenedorhombre3 {  
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.contenedoraccessories1, .contenedoraccessories2, .contenedoraccessories3{
 
-
-}
 .contenedorelectronics1, .contenedorelectronics2 {  
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
