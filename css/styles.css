@@ -458,13 +458,17 @@ text-decoration: none;
   color:rgb(0, 0, 0);
 font-size: large;
 font-family: "Open Sans", sans-serif;;
+
 }
 .contenedorproducto{
   margin: 10%;
-  width: 50%;
-  align-items: left;
-  align-self: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
   height: auto;
+  max-width: 45%;
+  
 }
 /*  
 
