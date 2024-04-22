@@ -340,10 +340,17 @@ text-decoration: none;
   }
 
 /* ---------------------------------------------------------- CATEGORY ------------------------------------------------------------ */
-.contenedoremujer1, .contenedoremujer2, .contenedoremujer3 {
+.categoriaMujer{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+
+.contenedoremujer1, .contenedoremujer2, .contenedoremujer3 {
+
+}
+
+
 .contenedorhombre1, .contenedorhombre2, .contenedorhombre3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
