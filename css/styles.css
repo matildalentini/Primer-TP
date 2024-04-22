@@ -90,19 +90,6 @@ body, html {
   font-size: 10px;
 }
 
-/* tengo este otro codigo, no se cual va 
-footer{
-  font-family: "Roboto Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  color: rgb(50, 50, 50);
-  background-color: rgb(203, 203, 203);
-  font-size: 10px;
-  text-align: center;
-}
-*/
-
 
 .credits2{
   font-family: "Roboto Mono", monospace;
@@ -159,25 +146,6 @@ footer{
       height:100%;
       max-width: 100%;
     }
-
-  /* ACA ESTA EL CODIGO CSS DE LOS PRODUCTOS, HAY QUE EDITARLO
-
-  /* -----------------------------------------------------------WOMEN-----------------------------------------------------------------
-  
-  .title2 {
-    
-  }
-  
-  
-  
-  
-  
-  
-   
-  }
- 
-  
-  */
  
 .settings2{
   font-family: "Roboto Mono", monospace;
@@ -352,16 +320,6 @@ text-decoration: none;
   font-size: 16px;
   text-decoration: none;
 }
-
-/*  
-.identidad{
-  position: absolute;
-  left: 90%; 
-  top: 2%;
-  color: black;
-  font-size: 16px;
-  text-decoration: none;
-}  Estaba este codigo y lo saque porque era el que modificaba lo de register el carrito y login*/
 
 .R{
   margin-left: 3%;
@@ -592,4 +550,28 @@ este codigo hace que tengan la misma altura y anchura pero que queden raras las 
   html{
    max-width: 420px;
   }
+  .ropawom1, .ropawom2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .ropamen1, .ropamen2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .accessories1, .accessories2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .electronics1, .electronics2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    }
 }
