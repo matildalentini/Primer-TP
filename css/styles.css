@@ -260,6 +260,7 @@ footer{
 }
 
 
+<<<<<<< HEAD
 .registerImage{
   height: 400px;
   background-image: url(../img/homepic2.jpeg);
@@ -272,18 +273,20 @@ footer{
 }
 
 
+=======
+>>>>>>> 41f88b12452f909d4e7636f6dbc600b22ee79aff
 .register{
   width: 300px; 
   margin: auto ; 
-  background-color: #7791a4; 
-  border-radius: 20px; 
+  background-color: #909faa; 
+  border-radius: 15px; 
   padding: 30px; 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   align-items: center;
   align-items: center;
   font-family: "Open Sans", sans-serif;
-  text-align: center;
-  font-size: 19px;
+  text-align: left;
+  font-size: 18px;
 }
 
 .registerForm{
@@ -292,19 +295,38 @@ footer{
 
 .login{
   width: 300px; 
-  margin: 100px auto; 
-  background-color: #7791a4; 
-  border-radius: 20px;
+  margin: auto ; 
+  background-color: #909faa; 
+  border-radius: 15px; 
   padding: 30px; 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+  font-size: 18px;
 }
+
+.loginForm{
+  padding: 9px;
+}
+
 .recover{
   width: 300px; 
-  margin: 100px auto; 
-  background-color: #7791a4; 
-  border-radius: 20px;
+  margin: auto ; 
+  background-color: #909faa; 
+  border-radius: 15px; 
   padding: 30px; 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+  font-size: 18px;
+}
+
+.recoverForm{
+  padding: 9px;
 }
 
 
@@ -404,19 +426,35 @@ text-decoration: none;
   }
 
 /* sub contenedores "divs" */
-  .image-elec1, .image-elec2{
-    margin-left: 25%;
+.producto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
   }
-  .image-joyas1, .image-joyas2{
-    margin-left: 25%;
-  }
-  .image-men1, .image-men2{
-    margin-left: 25%;
-  }
-  .image-women1, .image-women2{
-    margin-left: 25%;
+  .price, .description {
+    margin-bottom: 5px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: black;
+    
   }
 
+  .add-to-cart {
+    padding: 4px 8px;
+    background-color: #818181;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #303030;
+  }
 /* ---------------------------------------------------------- CATEGORY ------------------------------------------------------------ */
   img{
    height:100%;
