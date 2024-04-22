@@ -196,6 +196,13 @@ body, html {
   padding:40px;
   margin-top: 100px;
 }
+.media3{
+  text-align: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding:40px;
+  margin-top: 100px;
+}
 
 /* footer de cart, login, recover y register */
 .containerf{
@@ -586,6 +593,103 @@ este codigo hace que tengan la misma altura y anchura pero que queden raras las 
 
 
 /* ---------------------------------------------------- MEDIA QUERIES ------------------------------------------------------- */
+
+@media (max-width: 420px) {       /*IPhone 12*/
+  html{
+   max-width: 420px;
+  }
+
+  /*index*/
+  .contenedoraccessories1, .contenedoraccessories2 .contenedoraccessories3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .contenedorelectronics1, .contenedorelectronics2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .contenedorhombre1, .contenedorhombre2, .contenedorhombre3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .contenedormujer1, .contenedormujer2, .contenedormujer3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    }
+
+    /* cart */
+    .productoAgregado{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 30vh;
+      justify-content: space-around; 
+      box-sizing: border-box; 
+    }
+
+    .descripcionImagenCarrito{
+      justify-content: center;
+    }
+
+    .imagenCarrito{
+      display: flex; 
+      align-items: center; 
+      }
+  
+      .imagenCarrito img {
+        max-width: 80%; 
+        max-height: 80%; 
+        margin: auto; 
+      }
+
+  /* login, register y recover*/
+
+  header{
+    max-width: 420px;
+  }
+
+  footer{
+    max-width: 420px;
+  }
+
+  .bodyFormularios{
+    margin: 0px;
+    padding: 0px;
+    max-width: 420px;
+    max-width: 420px;
+  }
+       
+  .register, .login, .recover{
+    width: 200px; 
+    margin: auto ; 
+    padding: 30px; 
+    font-size: 15px;
+  }
+  
+  .registerForm, .loginForm, .recoverForm{
+    padding: 9px;
+  }
+  
+
+    .registro{
+      position:absolute;
+      top: 2px; /* Adjust top spacing */
+      right: 25%;
+    }
+    .cart{
+      position:absolute;
+      top: 1px; /* Adjust top spacing */
+      right: 25px;
+    }
+}
 
 
 @media (max-width: 420px) {       /*IPhone 12*/
