@@ -572,7 +572,6 @@ este codigo hace que tengan la misma altura y anchura pero que queden raras las 
     align-items: center;
     margin-bottom: 20px;
     }
-<<<<<<< HEAD
 
     /* cart */
     .productoAgregado{
@@ -628,7 +627,6 @@ este codigo hace que tengan la misma altura y anchura pero que queden raras las 
   }
   
 
-=======
     .registro{
       position:absolute;
       top: 2px; /* Adjust top spacing */
@@ -639,7 +637,6 @@ este codigo hace que tengan la misma altura y anchura pero que queden raras las 
       top: 1px; /* Adjust top spacing */
       right: 25px;
     }
->>>>>>> c58d52b891565e2b8cfe552bed95491013d6d506
 }
 
 
