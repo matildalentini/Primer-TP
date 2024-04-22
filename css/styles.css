@@ -428,31 +428,50 @@ text-decoration: none;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.image-especial-women{
+  transition: transform 0.3s ease;
+}
 
+.image-especial-women img:hover{
+  transform: scale(1.1);
+  transition: 0.5s ease-out;
+}
 
 .image-containerw1,.image-containerw2, .image-containerw3{
   margin: 10%;
   align-items: center;
   align-self: center;
   height: auto;
+  justify-content: center;
+  justify-self: center;
+  justify-items: center;
 }
 .image-containerm1, .image-containerm2, .image-containerm3{
   margin: 10%;
   align-items: center;
   align-self: center;
   height: auto;
+  justify-content: center;
+  justify-self: center;
+  justify-items: center;
 }
 .image-containera1, .image-containera2, .image-containera3{
   margin: 10%;
   align-items: center;
   align-self: center;
   height: auto;
+  justify-content: center;
+  justify-self: center;
+  justify-items: center;
 }
 .image-containere1, .image-containere2{
   margin: 10%;
   align-items: center;
   align-self: center;
   height: auto;
+  justify-content: center;
+  justify-self: center;
+  justify-items: center;
 }
 
 
