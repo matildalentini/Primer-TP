@@ -260,29 +260,18 @@ footer{
 }
 
 
-.registerImage{
-  height: 400px;
-  background-image: url(../img/homepic2.jpeg);
-  opacity: 0.9;
-  background-repeat: no-repeat;
-  background-position: 100%;
-  background-attachment: scroll;
-  background-size: cover;
-  margin: 20px;
-}
-
 .register{
   width: 300px; 
   margin: auto ; 
-  background-color: #7791a4; 
-  border-radius: 20px; 
+  background-color: #909faa; 
+  border-radius: 15px; 
   padding: 30px; 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   align-items: center;
   align-items: center;
   font-family: "Open Sans", sans-serif;
-  text-align: center;
-  font-size: 19px;
+  text-align: left;
+  font-size: 18px;
 }
 
 .registerForm{
@@ -291,19 +280,38 @@ footer{
 
 .login{
   width: 300px; 
-  margin: 100px auto; 
-  background-color: #7791a4; 
-  border-radius: 20px;
+  margin: auto ; 
+  background-color: #909faa; 
+  border-radius: 15px; 
   padding: 30px; 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+  font-size: 18px;
 }
+
+.loginForm{
+  padding: 9px;
+}
+
 .recover{
   width: 300px; 
-  margin: 100px auto; 
-  background-color: #7791a4; 
-  border-radius: 20px;
+  margin: auto ; 
+  background-color: #909faa; 
+  border-radius: 15px; 
   padding: 30px; 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+  font-size: 18px;
+}
+
+.recoverForm{
+  padding: 9px;
 }
 
 
