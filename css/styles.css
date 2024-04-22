@@ -230,6 +230,53 @@ footer{
 }
 
 
+.registerImage{
+  height: 400px;
+  background-image: url(../img/homepic2.jpeg);
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-attachment: scroll;
+  background-size: cover;
+  margin: 20px;
+}
+
+.register{
+  width: 300px; 
+  margin: auto ; 
+  background-color: #7791a4; 
+  border-radius: 20px; 
+  padding: 30px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 19px;
+}
+
+.registerForm{
+  padding: 9px;
+}
+
+.login{
+  width: 300px; 
+  margin: 100px auto; 
+  background-color: #7791a4; 
+  border-radius: 20px;
+  padding: 30px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.recover{
+  width: 300px; 
+  margin: 100px auto; 
+  background-color: #7791a4; 
+  border-radius: 20px;
+  padding: 30px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
 /* ------------------------------------------ solo esta en el index ------------------------------------------------------------*/
 .products{
   font-family:  "Bebas Neue", sans-serif;
@@ -445,28 +492,4 @@ este codigo hace que tengan la misma altura y anchura pero que queden raras las 
   html{
    max-width: 420px;
   }
-}
-.register{
-  width: 300px; 
-  margin: 100px auto; 
-  background-color: #7791a4; 
-  border-radius: 20px; 
-  padding: 30px; 
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-.login{
-  width: 300px; 
-  margin: 100px auto; 
-  background-color: #7791a4; 
-  border-radius: 20px;
-  padding: 30px; 
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-.recover{
-  width: 300px; 
-  margin: 100px auto; 
-  background-color: #7791a4; 
-  border-radius: 20px;
-  padding: 30px; 
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
