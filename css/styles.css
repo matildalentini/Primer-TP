@@ -259,7 +259,6 @@ footer{
   right: 2%;
 }
 
-
 .register{
   width: 300px; 
   margin: auto ; 
@@ -452,8 +451,7 @@ text-decoration: none;
   max-width: 100%;
 }
 
-.categoriaHombre{
-}
+
 
 .categoriaAccesorios{
   display: grid;
@@ -461,29 +459,23 @@ text-decoration: none;
   max-width: 100%;
 }
 
-.categoriaElectronicos{
-}
 
 
 
-.contenedoremujer1, .contenedoremujer2, .contenedoremujer3 {
-}
 
-.contenedorhombre1, .contenedorhombre2, .contenedorhombre3 {  /*este funciona*/
+.contenedorhombre1, .contenedorhombre2, .contenedorhombre3 {  
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.contenedoraccessories1, .contenedoraccessories2, .contenedoraccessories3{
 
-}
-.contenedorelectronics1, .contenedorelectronics2 {  /*este funciona*/
+.contenedorelectronics1, .contenedorelectronics2 {  
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 
-/* esto es necesario */
+
 .image-containerw1,.image-containerw2, .image-containerw3{
   margin: 10%;
   align-items: center;
@@ -508,7 +500,18 @@ text-decoration: none;
   align-self: center;
   height: auto;
 }
-
+.image-containerp{
+  color:rgb(0, 0, 0);
+font-size: large;
+font-family: "Open Sans", sans-serif;;
+}
+.contenedorproducto{
+  margin: 10%;
+  width: 50%;
+  align-items: left;
+  align-self: left;
+  height: auto;
+}
 /*  
 
 este codigo hace que tengan la misma altura y anchura pero que queden raras las fotos, no se que prefieren
