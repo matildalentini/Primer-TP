@@ -131,8 +131,8 @@ footer{
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  color: rgb(50, 50, 50);
-  background-color: rgb(203, 203, 203); 
+  color: rgb(234, 234, 234);
+  background-color: rgb(31, 30, 30);
   font-size: 10px;
   list-style-type: none;
   display: flex;
@@ -177,16 +177,14 @@ footer{
   }
  
   
-  
-  .settings{
+  */
+ 
 .settings2{
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   color: rgb(50, 50, 50);
-  /*  background-color: rgb(203, 203, 203); 
-  Esto tambien estaba agregado a los otros settings2, fijarse si va o no */
   font-size: 10px;
   list-style-type: none;
   display: flex;
@@ -198,6 +196,10 @@ footer{
   text-decoration: underline;
   }
   .palito{
+    font-size: 15px;
+  }
+
+  .palito2{
     font-size: 15px;
   }
   
@@ -332,8 +334,8 @@ text-decoration: none;
 }
 
 .ultfondo{
-  background-color: rgb(203, 203, 203);
-}
+  color: rgb(234, 234, 234);
+  background-color: rgb(31, 30, 30);}
 
 .identidad{
   position: absolute;
@@ -361,11 +363,6 @@ text-decoration: none;
 .R:hover{
   text-decoration: underline;
 }
-.lastp{
-  color:rgb(179, 177, 177);
-  margin-bottom: 15%;
-  margin-top: 10%;
-}  /* solo en index y producto  no se si en producto deberia estar o no */
  
 .intro , .intros , .lastp{
   font-family: "Open Sans", sans-serif;
@@ -381,6 +378,11 @@ text-decoration: none;
   line-height: 30px;
 }
    
+.lastp{
+  color:rgb(179, 177, 177);
+  margin-bottom: 15%;
+  margin-top: 10%;
+}  /* solo en index y producto  no se si en producto deberia estar o no */
 
 /* contenedores grandes "section" */
 .ropawom1, .ropawom2{
