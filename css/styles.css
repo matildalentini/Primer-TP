@@ -260,6 +260,21 @@ footer{
 }
 
 
+<<<<<<< HEAD
+.registerImage{
+  height: 400px;
+  background-image: url(../img/homepic2.jpeg);
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-attachment: scroll;
+  background-size: cover;
+  margin: 20px;
+}
+
+
+=======
+>>>>>>> 41f88b12452f909d4e7636f6dbc600b22ee79aff
 .register{
   width: 300px; 
   margin: auto ; 
@@ -467,23 +482,25 @@ text-decoration: none;
 
 
 .contenedoremujer1, .contenedoremujer2, .contenedoremujer3 {
+
 }
 
-.contenedorhombre1, .contenedorhombre2, .contenedorhombre3 {  /*este funciona*/
+.contenedorhombre1, .contenedorhombre2, .contenedorhombre3 {  
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
 .contenedoraccessories1, .contenedoraccessories2, .contenedoraccessories3{
 
+
 }
-.contenedorelectronics1, .contenedorelectronics2 {  /*este funciona*/
+.contenedorelectronics1, .contenedorelectronics2 {  
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 
-/* esto es necesario */
+
 .image-containerw1,.image-containerw2, .image-containerw3{
   margin: 10%;
   align-items: center;
@@ -508,7 +525,18 @@ text-decoration: none;
   align-self: center;
   height: auto;
 }
-
+.image-containerp{
+  color:rgb(0, 0, 0);
+font-size: large;
+font-family: "Open Sans", sans-serif;;
+}
+.contenedorproducto{
+  margin: 10%;
+  width: 50%;
+  align-items: left;
+  align-self: left;
+  height: auto;
+}
 /*  
 
 este codigo hace que tengan la misma altura y anchura pero que queden raras las fotos, no se que prefieren
