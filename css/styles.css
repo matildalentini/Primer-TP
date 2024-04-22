@@ -340,56 +340,100 @@ text-decoration: none;
   }
 
 /* ---------------------------------------------------------- CATEGORY ------------------------------------------------------------ */
+  img{
+   height:100%;
+   max-width: 100%;
+  }
+
 .categoriaMujer{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 100%;
 }
+
+.categoriaHombre{
+}
+
+.categoriaAccesorios{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 100%;
+}
+
+.categoriaElectronicos{
+}
+
 
 
 .contenedoremujer1, .contenedoremujer2, .contenedoremujer3 {
-
 }
 
-
-.contenedorhombre1, .contenedorhombre2, .contenedorhombre3 {
+.contenedorhombre1, .contenedorhombre2, .contenedorhombre3 {  /*este funciona*/
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+
 .contenedoraccessories1, .contenedoraccessories2, .contenedoraccessories3{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+
 }
-.contenedorelectronics1, .contenedorelectronics2 {
+.contenedorelectronics1, .contenedorelectronics2 {  /*este funciona*/
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+
+/* esto es necesario */
 .image-containerw1,.image-containerw2, .image-containerw3{
-  margin-left: 25%;
+  margin: 10%;
+  align-items: center;
+  align-self: center;
+  height: auto;
 }
 .image-containerm1, .image-containerm2, .image-containerm3{
-  margin-left: 25%;
+  margin: 10%;
+  align-items: center;
+  align-self: center;
+  height: auto;
 }
 .image-containera1, .image-containera2, .image-containera3{
-  margin-left: 25%;
+  margin: 10%;
+  align-items: center;
+  align-self: center;
+  height: auto;
 }
 .image-containere1, .image-containere2{
-  margin-left: 25%;
+  margin: 10%;
+  align-items: center;
+  align-self: center;
+  height: auto;
 }
 
-/*      ---- */
+/*  
 
-.image-containera, .image-containere, .image-containerm, .image-containerw{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+este codigo hace que tengan la misma altura y anchura pero que queden raras las fotos, no se que prefieren
+
+  #women img{
+    height: 400px;
+    width: 300px;
+    margin: 0.2%;
   }
-.image-containera img, .image-containere img, .image-containerm img, .image-containerw img{
-      width: calc(25% - 10px); 
-      height: auto;
-      margin-bottom: 10px;
+  #men img{
+    height: 400px;
+    width: 300px;
+    margin: 0.2%;
+  }
+  #accessories img{
+    height: 400px;
+    width: 300px;
+    margin: 0.2%;
+  }
+  #electronics img{
+    height: 25%;
+    width:300px;
+   margin: 0.2%;
   }
 
+  */
 
 
 
