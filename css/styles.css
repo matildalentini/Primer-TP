@@ -196,6 +196,13 @@ body, html {
   padding:40px;
   margin-top: 100px;
 }
+.media3{
+  text-align: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding:40px;
+  margin-top: 100px;
+}
 
 /* footer de cart, login, recover y register */
 .containerf{
@@ -428,45 +435,120 @@ text-decoration: none;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.image-especial-women{
+  transition: transform 0.3s ease;
+}
 
+.image-especial-women img:hover{
+  transform: scale(1.1);
+  transition: 0.5s ease-out;
+}
 
 .image-containerw1,.image-containerw2, .image-containerw3{
   margin: 10%;
   align-items: center;
   align-self: center;
   height: auto;
+  justify-content: center;
+  justify-self: center;
+  justify-items: center;
 }
 .image-containerm1, .image-containerm2, .image-containerm3{
   margin: 10%;
   align-items: center;
   align-self: center;
   height: auto;
+  justify-content: center;
+  justify-self: center;
+  justify-items: center;
 }
 .image-containera1, .image-containera2, .image-containera3{
   margin: 10%;
   align-items: center;
   align-self: center;
   height: auto;
+  justify-content: center;
+  justify-self: center;
+  justify-items: center;
 }
 .image-containere1, .image-containere2{
   margin: 10%;
   align-items: center;
   align-self: center;
   height: auto;
-}
-.image-containerp{
-  color:rgb(0, 0, 0);
-font-size: large;
-font-family: "Open Sans", sans-serif;;
-}
-.contenedorproducto{
-  margin: 10%;
-  width: 50%;
-  align-items: left;
-  align-self: left;
-  height: auto;
+  justify-content: center;
+  justify-self: center;
+  justify-items: center;
 }
 
+
+/* =----------------------------PRODUCTO------------------------*/
+
+.ropamujer{
+  width: 95%; 
+  max-width: auto;
+  height: 70vh;
+  margin: auto;
+  display: flex;
+  align-items: center; 
+  justify-content: space-around; 
+  box-sizing: border-box; 
+  font-family: "Open Sans", sans-serif;
+  font-size: large;
+  color:rgb(0, 0, 0);
+}
+
+
+.contenedorproducto{
+  margin: 5%;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  height: auto;
+  max-width: 78%;
+}
+<<<<<<< HEAD
+
+=======
+
+.contenedorproducto img{
+  max-width: 60%; 
+  max-height: 60%; 
+  margin-right: 30px; 
+}
+
+
+
+
+/*  
+
+este codigo hace que tengan la misma altura y anchura pero que queden raras las fotos, no se que prefieren
+
+  #women img{
+    height: 400px;
+    width: 300px;
+    margin: 0.2%;
+  }
+  #men img{
+    height: 400px;
+    width: 300px;
+    margin: 0.2%;
+  }
+  #accessories img{
+    height: 400px;
+    width: 300px;
+    margin: 0.2%;
+  }
+  #electronics img{
+    height: 25%;
+    width:300px;
+   margin: 0.2%;
+  }
+  */
+
+
+  
+>>>>>>> b5f9b27c0592e9deeca080f4200ee97d56e6017f
 /* --------------------------------------------------- CARRITO --------------------------------------------------*/
  
   .productoAgregado{
@@ -516,11 +598,110 @@ font-family: "Open Sans", sans-serif;;
 
 /* ---------------------------------------------------- MEDIA QUERIES ------------------------------------------------------- */
 
+@media (max-width: 420px) {       /*IPhone 12*/
+  html{
+   max-width: 420px;
+  }
+
+  /*index*/
+  .contenedoraccessories1, .contenedoraccessories2 .contenedoraccessories3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .contenedorelectronics1, .contenedorelectronics2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .contenedorhombre1, .contenedorhombre2, .contenedorhombre3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .contenedormujer1, .contenedormujer2, .contenedormujer3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    }
+
+    /* cart */
+    .productoAgregado{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 30vh;
+      justify-content: space-around; 
+      box-sizing: border-box; 
+    }
+
+    .descripcionImagenCarrito{
+      justify-content: center;
+    }
+
+    .imagenCarrito{
+      display: flex; 
+      align-items: center; 
+      }
+  
+      .imagenCarrito img {
+        max-width: 80%; 
+        max-height: 80%; 
+        margin: auto; 
+      }
+
+  /* login, register y recover*/
+
+  header{
+    max-width: 420px;
+  }
+
+  footer{
+    max-width: 420px;
+  }
+
+  .bodyFormularios{
+    margin: 0px;
+    padding: 0px;
+    max-width: 420px;
+    max-width: 420px;
+  }
+       
+  .register, .login, .recover{
+    width: 200px; 
+    margin: auto ; 
+    padding: 30px; 
+    font-size: 15px;
+  }
+  
+  .registerForm, .loginForm, .recoverForm{
+    padding: 9px;
+  }
+  
+
+    .registro{
+      position:absolute;
+      top: 2px; /* Adjust top spacing */
+      right: 25%;
+    }
+    .cart{
+      position:absolute;
+      top: 1px; /* Adjust top spacing */
+      right: 25px;
+    }
+}
+
 
 @media (max-width: 420px) {       /*IPhone 12*/
   html{
    max-width: 420px;
   }
+
+  /*index*/
   .ropawom1, .ropawom2{
     display: flex;
     flex-direction: column;
@@ -545,6 +726,61 @@ font-family: "Open Sans", sans-serif;;
     align-items: center;
     margin-bottom: 20px;
     }
+
+    /* cart */
+    .productoAgregado{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 30vh;
+      justify-content: space-around; 
+      box-sizing: border-box; 
+    }
+
+    .descripcionImagenCarrito{
+      justify-content: center;
+    }
+
+    .imagenCarrito{
+      display: flex; 
+      align-items: center; 
+      }
+  
+      .imagenCarrito img {
+        max-width: 80%; 
+        max-height: 80%; 
+        margin: auto; 
+      }
+
+  /* login, register y recover*/
+
+  header{
+    max-width: 420px;
+  }
+
+  footer{
+    max-width: 420px;
+  }
+
+  .bodyFormularios{
+    margin: 0px;
+    padding: 0px;
+    max-width: 420px;
+    max-width: 420px;
+  }
+       
+  .register, .login, .recover{
+    width: 200px; 
+    margin: auto ; 
+    padding: 30px; 
+    font-size: 15px;
+  }
+  
+  .registerForm, .loginForm, .recoverForm{
+    padding: 9px;
+  }
+  
+
     .registro{
       position:absolute;
       top: 2px; /* Adjust top spacing */
@@ -556,3 +792,10 @@ font-family: "Open Sans", sans-serif;;
       right: 25px;
     }
 }
+
+
+
+
+
+
+
