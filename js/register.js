@@ -53,8 +53,7 @@ document.getElementById('form').addEventListener('submit', function(event) {
         // Redirigir al formulario de login (simulado aquí con un mensaje en consola)
         console.log('Formulario válido. Redirigiendo al formulario de login.');
         // Simulación de redirección:
-        setTimeout(() => {
-            window.location.href = 'login.html';  // Cambiar a la página correcta
-        })
+        window.location.href = 'login.html';  // Cambiar a la página correcta
+        
     }
 });
