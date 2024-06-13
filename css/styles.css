@@ -2,7 +2,7 @@ body, html {
   scroll-behavior: smooth;
 }
 
-.title{
+.title {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,34 +10,34 @@ body, html {
   text-decoration: none;
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
-  font-style: normal;
   font-size: 100px;
 }
 
-.title2{
+.title2 {
   display: flex;
   color: black;
   text-decoration: none;
   font-family: "Bebas Neue", sans-serif;
   font-weight: 100;
-  font-style:normal;
   font-size: 50px;
 }
 
-.lista{
+.lista {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-right: 10px;
-  color:black;
+  color: black;
   text-decoration: none;
 }
 
-.ul{
+.lista:hover {
+  text-decoration: underline;
+}
+
+.ul {
   font-family: "Roboto Mono", monospace;
-  font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
   color: black;
   list-style-type: none;
   display: flex;
@@ -45,179 +45,114 @@ body, html {
   justify-content: center;
 }
 
-.lista:hover{
-  text-decoration: underline;
+.homepic {
+  width: 100%;
+  height: 80%;
 }
 
-.homepic{
-  width:100%;
-  height:80%;
-}
-.titulorw , .titulorm , .tituloa , .tituloe{
-  font-family:  "Bebas Neue", sans-serif;
-  font-optical-sizing: auto;
+.titulorw, .titulorm, .tituloa, .tituloe {
+  font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
-  font-style: bold;
   color: black;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-  padding:5px;
+  padding: 5px;
   font-size: 50px;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
 }
-.credits{
+
+.credits, .footer {
   font-family: "Roboto Mono", monospace;
-  font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
-  color: rgb(234, 234, 234);
-  background-color: rgb(31, 30, 30);
-  font-size: 10px;
-  display:flex;
-  align-items: flex-end;
-}
-.footer{
-  font-family: "Roboto Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
   color: rgb(234, 234, 234);
   background-color: rgb(31, 30, 30);
   font-size: 10px;
 }
 
-
-.credits2{
+.credits2, .footer2 {
   font-family: "Roboto Mono", monospace;
-  font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
-  color: rgb(50, 50, 50);
-  background-color: rgb(203, 203, 203);
-  font-size: 10px;
-  display:flex;
-  align-items: bottom left;
-}
-.footer2{
-  font-family: "Roboto Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
   color: rgb(50, 50, 50);
   background-color: rgb(203, 203, 203);
   font-size: 10px;
   text-align: center;
 }
 
-.settings{
+.settings, .settings2 {
   font-family: "Roboto Mono", monospace;
-  font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
   color: rgb(234, 234, 234);
-  background-color: rgb(31, 30, 30);
-  font-size: 10px;
   list-style-type: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10%;
 }
-.settings :hover{
-  text-decoration: underline;
-}
 
-  .R{
-    margin-left: 5%;}
-
-    img{
-      height:100%;
-      max-width: 100%;
-    }
- 
-.settings2{
-  font-family: "Roboto Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+.settings2 {
   color: rgb(50, 50, 50);
-  font-size: 10px;
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding: 2%;
-  }
-  .settings2 :hover{
+}
+
+.settings:hover, .settings2:hover {
   text-decoration: underline;
-  }
-  .palito{
-    font-size: 15px;
-  }
+}
 
-  .palito2{
-    font-size: 15px;
-  }
-  
-  .social{
-    color:rgb(186, 186, 186);
-    /* color: rgb(50, 50, 50);   otro social de men creo tiene este color*/
-    font-size: 30px;
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-    text-decoration: none;
-    /* border-left:100px;   y aca tambien tiene este border */
-  }
-  .social2{
-    color: rgb(50, 50, 50);
-    font-size: 20px;
-    margin: 10px;
-    text-decoration: none;
-    border-left:100px;
-  }
-    
-  
-.media{
-  text-align: center;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  padding:40px;
-  margin-top: 100px;
+.R {
+  margin-left: 5%;
 }
-.media2{
-  text-align: center;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  padding:40px;
-  margin-top: 100px;
+
+img {
+  height: 100%;
+  max-width: 100%;
 }
-.media3{
+
+.palito, .palito2 {
+  font-size: 15px;
+}
+
+.social {
+  color: rgb(186, 186, 186);
+  font-size: 30px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.social2 {
+  color: rgb(50, 50, 50);
+  font-size: 20px;
+  margin: 10px;
+  text-decoration: none;
+  border-left: 100px;
+}
+
+.media, .media2, .media3 {
   text-align: center;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-  padding:40px;
+  padding: 40px;
   margin-top: 100px;
 }
 
-/* footer de cart, login, recover y register */
-.containerf{
+.containerf {
   background-color: rgb(203, 203, 203);
 }
 
-.cart{
+.cart {
   color: black;
-  font-size: 18px;  /* habia otro codigo en men o women creo que estaba puesto en 20px */
+  font-size: 18px;
   position: absolute;
   top: 2%;
-  right: 12%;  /* y esto en 2% */
+  right: 12%;
 }
 
-.cart2{
+.cart2 {
   color: black;
   font-size: 23px;
   position: absolute;
@@ -225,69 +160,27 @@ body, html {
   right: 2%;
 }
 
-.register{
-  width: 300px; 
-  margin: auto ; 
-  background-color: #909faa; 
-  border-radius: 15px; 
-  padding: 30px; 
+.register, .login, .recover {
+  width: 300px;
+  margin: auto;
+  background-color: #909faa;
+  border-radius: 15px;
+  padding: 30px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  align-items: center;
-  align-items: center;
   font-family: "Open Sans", sans-serif;
   text-align: left;
   font-size: 18px;
 }
 
-.registerForm{
+.registerForm, .loginForm, .recoverForm {
   padding: 9px;
 }
 
-.login{
-  width: 300px; 
-  margin: auto ; 
-  background-color: #909faa; 
-  border-radius: 15px; 
-  padding: 30px; 
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  align-items: center;
-  align-items: center;
-  font-family: "Open Sans", sans-serif;
-  text-align: left;
-  font-size: 18px;
-}
-
-.loginForm{
-  padding: 9px;
-}
-
-.recover{
-  width: 300px; 
-  margin: auto ; 
-  background-color: #909faa; 
-  border-radius: 15px; 
-  padding: 30px; 
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  align-items: center;
-  align-items: center;
-  font-family: "Open Sans", sans-serif;
-  text-align: left;
-  font-size: 18px;
-}
-
-.recoverForm{
-  padding: 9px;
-}
-
-
-/* ------------------------------------------ solo esta en el index ------------------------------------------------------------*/
-.products{
-  font-family:  "Bebas Neue", sans-serif;
-  font-optical-sizing: auto;
+.products {
+  font-family: "Bebas Neue", sans-serif;
   font-weight: 300;
-  font-style: normal;
   text-align: center;
-  color:rgb(4, 4, 68);
+  color: rgb(4, 4, 68);
   font-size: 17px;
   text-decoration: none;
   display: flex;
@@ -296,305 +189,144 @@ body, html {
   margin-right: 10px;
 }
 
-.products:hover{
+.products:hover {
   font-weight: bolder;
   text-decoration-line: underline;
 }
 
-.subt{
-  color:black;
-text-decoration: none;
+.subt {
+  color: black;
+  text-decoration: none;
 }
 
-.ultfondo{
+.ultfondo {
   color: rgb(234, 234, 234);
-  background-color: rgb(31, 30, 30);}
+  background-color: rgb(31, 30, 30);
+}
 
-.identidad{
+.identidad {
   font-family: "Roboto Mono", monospace;
-  font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
   color: black;
   position: absolute;
-  left: 90%; 
+  left: 90%;
   top: 2%;
-  color: black;
   font-size: 16px;
   text-decoration: none;
 }
 
-.R{
-  margin-left: 3%;
-  font-size: 14px;
-}
-.R:hover{
+.R:hover {
   text-decoration: underline;
 }
- 
-.intro , .intros , .lastp{
+
+.intro, .intros, .lastp {
   font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 300;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
   text-align: center;
-  color:black;
+  color: black;
   font-size: 17px;
   margin-top: 1px solid white;
   padding: 50px;
   line-height: 30px;
 }
-   
-.lastp{
-  color:rgb(179, 177, 177);
+
+.lastp {
+  color: rgb(179, 177, 177);
   margin-bottom: 15%;
   margin-top: 10%;
-}  /* solo en index y producto  no se si en producto deberia estar o no */
-
-/* contenedores grandes "section" */
-.ropawom1, .ropawom2{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-.ropamen1, .ropamen2{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-.accessories1, .accessories2{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-.electronics1, .electronics2{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-/* sub contenedores "divs" */
-.producto{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  .price, .description {
-    margin-bottom: 5px;
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-    font-variation-settings: "wdth" 100;
-    color: black;
-    
-  }
-
-  .add-to-cart {
-    padding: 4px 8px;
-    background-color: #818181;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-  }
-  
-  .add-to-cart:hover {
-    background-color: #303030;
-  }
-/* ---------------------------------------------------------- CATEGORY ------------------------------------------------------------ */
-  img{
-   height:100%;
-   max-width: 100%;
-  }
-
-.categoriaMujer{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  max-width: 100%;
 }
 
-
-
-.categoriaAccesorios{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  max-width: 100%;
-}
-
-
-
-
-
-.contenedorhombre1, .contenedorhombre2, .contenedorhombre3 {  
+.ropawom1, .ropawom2, .ropamen1, .ropamen2, .accessories1, .accessories2, .electronics1, .electronics2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-
-.contenedorelectronics1, .contenedorelectronics2 {  
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+.producto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
-.image-especial-women{
+.price, .description {
+  margin-bottom: 5px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: black;
+}
+
+.add-to-cart {
+  padding: 4px 8px;
+  background-color: #818181;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-to-cart:hover {
+  background-color: #303030;
+}
+
+.categoriaMujer, .categoriaAccesorios, .contenedorhombre1, .contenedorhombre2, .contenedorhombre3, .contenedorelectronics1, .contenedorelectronics2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.image-especial-women {
   transition: transform 0.3s ease;
 }
 
-.image-especial-women img:hover{
+.image-especial-women img:hover {
   transform: scale(1.1);
   transition: 0.5s ease-out;
 }
 
-.image-containerw1,.image-containerw2, .image-containerw3{
+.image-containerw1, .image-containerw2, .image-containerw3, .image-containerm1, .image-containerm2, .image-containerm3, .image-containera1, .image-containera2, .image-containera3, .image-containere1, .image-containere2 {
   margin: 10%;
   align-items: center;
-  align-self: center;
-  height: auto;
   justify-content: center;
-  justify-self: center;
-  justify-items: center;
-}
-.image-containerm1, .image-containerm2, .image-containerm3{
-  margin: 10%;
-  align-items: center;
-  align-self: center;
   height: auto;
-  justify-content: center;
-  justify-self: center;
-  justify-items: center;
-}
-.image-containera1, .image-containera2, .image-containera3{
-  margin: 10%;
-  align-items: center;
-  align-self: center;
-  height: auto;
-  justify-content: center;
-  justify-self: center;
-  justify-items: center;
-}
-.image-containere1, .image-containere2{
-  margin: 10%;
-  align-items: center;
-  align-self: center;
-  height: auto;
-  justify-content: center;
-  justify-self: center;
-  justify-items: center;
 }
 
-
-/* =----------------------------PRODUCTO------------------------*/
-
-.ropamujer{
-  width: 95%; 
+.ropamujer {
+  width: 95%;
   max-width: auto;
   height: 70vh;
   margin: auto;
   display: flex;
-  align-items: center; 
-  justify-content: space-around; 
-  box-sizing: border-box; 
+  align-items: center;
+  justify-content: space-around;
+  box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
   font-size: large;
-  color:rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
-
-.contenedorproducto{
+.contenedorproducto {
   margin: 5%;
   display: flex;
   align-items: center;
   min-height: 100vh;
-  height: auto;
   max-width: 78%;
 }
-<<<<<<< HEAD
 
-=======
-
-.contenedorproducto img{
-  max-width: 60%; 
-  max-height: 60%; 
-  margin-right: 30px; 
+.productoAgregado {
+  width: 70%;
+  max-width: auto;
+  height: 70vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid #cfcfcf;
+  border-radius: 1%;
+  padding: 0.2%;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-size: large;
+  color: rgb(0, 0, 0);
 }
-
-
-
-
-/*  
-
-este codigo hace que tengan la misma altura y anchura pero que queden raras las fotos, no se que prefieren
-
-  #women img{
-    height: 400px;
-    width: 300px;
-    margin: 0.2%;
-  }
-  #men img{
-    height: 400px;
-    width: 300px;
-    margin: 0.2%;
-  }
-  #accessories img{
-    height: 400px;
-    width: 300px;
-    margin: 0.2%;
-  }
-  #electronics img{
-    height: 25%;
-    width:300px;
-   margin: 0.2%;
-  }
-  */
-
-
-  
->>>>>>> b5f9b27c0592e9deeca080f4200ee97d56e6017f
-/* --------------------------------------------------- CARRITO --------------------------------------------------*/
- 
-  .productoAgregado{
-    width: 70%; 
-    max-width: auto;
-    height: 70vh;
-    margin: auto;
-    display: flex;
-    align-items: center; 
-    justify-content: space-around; 
-    border: 2px solid #cfcfcf; 
-    border-radius: 1%;
-    padding: 0.2%; 
-    box-sizing: border-box; 
-    font-family: "Open Sans", sans-serif;
-  }
-  
-  .imagenCarrito{
-    display: flex; 
-    align-items: center; 
-  }
-  
-  .imagenCarrito img {
-    max-width: 70%; 
-    max-height: 70%; 
-    margin-right: 20px; 
-  }
-  
-  .descripcionImagenCarrito{
-    flex-grow: 1;
-  }
-  
-  button {
-    padding: 5px 10px; 
-    background-color: #007bff; 
-    color: white; 
-    border: none; 
-    border-radius: 5px; 
-    cursor: pointer; 
-  }
-  
-  button:hover {
-    background-color: #0056b3; 
-  }
-
-
 
 /* ---------------------------------------------------- MEDIA QUERIES ------------------------------------------------------- */
 
