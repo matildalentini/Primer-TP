@@ -45,34 +45,27 @@ Link al formulario de login con el texto "Ya tengo una cuenta". -->
 <section class="register">
 <div class="registerForm">
 
-    <form  method="GET">
-       <div class="formEmail">
-           <label for="email">Ingrese un mail de usuario</label>
-           <input for="email" type="email" name="email" value="" placeholder="Mail de Usuario">
-       </div>
-   </form>
+  <form id="form">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <div id="email-error" class="error-message"></div><br><br>
     
-    <form  method="GET">
-         <div class="contra">
-            <label for="contraN">Escriba una contraseña segura</label>
-            <input for="contraN" type="password" name="pass" value="" placeholder="Contraseña">
-        </div>
-    </form>
+    <label for="password">Contraseña:</label>
+    <input type="password" id="password" name="password">
+    <div id="password-error" class="error-message"></div><br><br>
+    
+    <label for="repassword">Repetir Contraseña:</label>
+    <input type="password" id="repassword" name="repassword">
+    <div id="repassword-error" class="error-message"></div><br><br>
+    
+    <label>
+        <input type="checkbox" id="terms" name="terms">
+        Acepto los términos y condiciones
+    </label><br><br>
+    
+    <button type="submit">Registrarme</button>
+</form>
 
-    <form action="./index.html" method="GET">
-        <div class="repetirContra">
-            <label for="repContra">Repita su contraseña</label>
-            <input for="repContra" type="password" name="pass" value="" placeholder="Repetir Contraseña">
-            <button type="submit">  Registrarme </button>
-        </div>
-    </form>
-
-    <div class="terminos">
-        <form method="GET">
-            <label for="checkboxTerms">Términos y Condiciones</label>
-            <input type="checkbox" name="terms" value="terminosYcondiciones">
-        </form>
-    </div>
 
 
    <div class="linkLogin">
@@ -82,7 +75,7 @@ Link al formulario de login con el texto "Ya tengo una cuenta". -->
 </div>
     </section>
 
-
+<script src="../js/register.js"></script>
 </body>
 
 
