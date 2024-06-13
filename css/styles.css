@@ -466,32 +466,7 @@ font-family: "Open Sans", sans-serif;;
   align-self: left;
   height: auto;
 }
-/*  
 
-este codigo hace que tengan la misma altura y anchura pero que queden raras las fotos, no se que prefieren
-
-  #women img{
-    height: 400px;
-    width: 300px;
-    margin: 0.2%;
-  }
-  #men img{
-    height: 400px;
-    width: 300px;
-    margin: 0.2%;
-  }
-  #accessories img{
-    height: 400px;
-    width: 300px;
-    margin: 0.2%;
-  }
-  #electronics img{
-    height: 25%;
-    width:300px;
-   margin: 0.2%;
-  }
-
-  */
 /* --------------------------------------------------- CARRITO --------------------------------------------------*/
  
   .productoAgregado{
