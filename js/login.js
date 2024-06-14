@@ -6,6 +6,7 @@
 
 //  *  Si el formulario cumple con las validaciones deberá guardar el email del usuario en localstorage y redirigir a la página principal.
 
+let formulario = document.querySelector("form")
 
 let campoEmail = document.querySelector("#email");
 let emailError = document.querySelector("#email-error");
@@ -19,19 +20,19 @@ passwordError.style.display = 'none';
 let valid = true;
 
 
-document.getElementById('form').addEventListener('submit', function(event) {
+formulario.addEventListener('submit', function(event) {
     event.preventDefault();
 
-if (campoEmail.value.trim() === '' ){
+if (campoEmail.value == '' ){
     alert ("Por favor complete el campo email")
 }
 
-if (campoContrasena.value.trim() === ''){
+if (campoContrasena.value == ''){
     alert ("Por favor complete el campo contraseña")
 } else if (campoContrasena.value.length < 6){
     alert("La contraseña debe tener al menos 6 caracteres")
 } else{
-    
+
 }
     
 
