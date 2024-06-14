@@ -41,36 +41,24 @@ Un checkbox con la leyenda "Quiero recuperar mi contraseña". -->
 <section class="recover">
     <div class="recoverForm">
 
-        <form action="" id="form" method="GET">
-             <div class="formEmail">
-                <label for="email">Ingrese su mail de usuario</label>
-                 <input for="email" type="email" name="email" value="" placeholder="Mail de Usuario">
-            </div>
+        <form action="" method="GET" id="form">
+            <label for="email">Ingrese su mail de usuario</label>
+            <input for="email" type="email" name="email" value="" placeholder="Mail de Usuario" id="email">
+            <div id="email-error" class="error-message"></div> 
 
+            <label for="checkboxTerms">
+              <input type="checkbox" name="recup" value="recuperar">
+              Quiero Recuperar Mi Contraseña
+            </label>
 
-
+            <button type="submit">  Recuperar </button>
         </form>
- 
-
-        <form action="./login.html" method="GET">
-            <div class="formNueva">
-                <label for="contraseñaNueva">Ingrese una contraseña nueva</label>
-                <input for="contraseñaNueva" type="password" name="pass" value="" placeholder="Nueva Contraseña">
-                <button type="submit">  Recuperar </button>
-            </div>
-        </form>
-
-        <div class="recup">
-            <form method="GET">
-                <label for="checkboxTerms">Quiero Recuperar Mi Contraseña</label>
-                <input type="checkbox" name="recup" value="recuperar">
-            </form>
-        </div>
-        
 
     </div>
 
   </section>
+
+  <script src="../js/recover.js"></script>
 </body>
 
 <footer class="containerf"> 

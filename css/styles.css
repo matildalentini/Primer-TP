@@ -263,37 +263,39 @@ body, html {
 .login{
   width: 300px; 
   margin: auto ; 
-  background-color: #909faa; 
-  border-radius: 15px; 
-  padding: 30px; 
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #c9c0b1; 
+  padding: 50px; 
   align-items: center;
   align-items: center;
   font-family: "Open Sans", sans-serif;
   text-align: left;
-  font-size: 18px;
+  font-size: 15px;
+  margin-bottom: 300px;
+  margin-top: 50px;
+  line-height: 25px;
 }
 
 .loginForm{
-  padding: 9px;
+  padding: 20px;
 }
 
 .recover{
   width: 300px; 
   margin: auto ; 
-  background-color: #909faa; 
-  border-radius: 15px; 
-  padding: 30px; 
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #c9c0b1; 
+  padding: 50px; 
   align-items: center;
   align-items: center;
   font-family: "Open Sans", sans-serif;
   text-align: left;
-  font-size: 18px;
+  font-size: 15px;
+  margin-bottom: 300px;
+  margin-top: 50px;
+  line-height: 25px;
 }
 
 .recoverForm{
-  padding: 9px;
+  padding: 20px;
 }
 
 
