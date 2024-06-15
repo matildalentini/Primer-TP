@@ -23,18 +23,15 @@ let valid = true;
 formulario.addEventListener('submit', function(event) {
     event.preventDefault();
 
-if (campoEmail.value == '' ){
-    alert ("Por favor complete el campo email")
+    if (campoEmail.value == '' ){
+        alert ("Por favor complete el campo email")
+    } else if (campoContrasena.value == ''){
+        alert ("Por favor complete el campo contraseña")
+    } else if (campoContrasena.value.length < 6){
+        alert("La contraseña debe tener al menos 6 caracteres")
+    } else{
+        formulario.submit()
+        document.location.href = "index.html"
+        localStorage.setItem("userEmail", campoEmail.value)
 }
-
-if (campoContrasena.value == ''){
-    alert ("Por favor complete el campo contraseña")
-} else if (campoContrasena.value.length < 6){
-    alert("La contraseña debe tener al menos 6 caracteres")
-} else{
-
-}
-    
-
-
 });
