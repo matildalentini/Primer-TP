@@ -234,14 +234,9 @@ body, html {
 }
 
 .boton{
-  background-color:  #c9c0b1;
-  color: black;
-  font-size: 17px;
+  background-color:#352509
 }
-.boton:hover{
-  background-color: #c9c0b1;
-  font-weight: bold;
-}
+
 .register{
   width: 300px; 
   margin: auto ; 
@@ -421,112 +416,10 @@ text-decoration: none;
     background-color: #303030;
   }
 /* ---------------------------------------------------------- CATEGORY ------------------------------------------------------------ */
-  img{
-   height:100%;
-   max-width: 100%;
-  }
 
-.categoriaMujer{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  max-width: 100%;
-}
+/* ----------------------------------------------------------PRODUCTO------------------------------------------------------------*/
 
 
-
-.categoriaAccesorios{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  max-width: 100%;
-}
-
-
-
-
-
-.contenedorhombre1, .contenedorhombre2, .contenedorhombre3 {  
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-
-.contenedorelectronics1, .contenedorelectronics2 {  
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.image-especial-women{
-  transition: transform 0.3s ease;
-}
-
-.image-especial-women img:hover{
-  transform: scale(1.1);
-  transition: 0.5s ease-out;
-}
-
-.image-containerw1,.image-containerw2, .image-containerw3{
-  margin: 10%;
-  align-items: center;
-  align-self: center;
-  height: auto;
-  justify-content: center;
-  justify-self: center;
-  justify-items: center;
-}
-.image-containerm1, .image-containerm2, .image-containerm3{
-  margin: 10%;
-  align-items: center;
-  align-self: center;
-  height: auto;
-  justify-content: center;
-  justify-self: center;
-  justify-items: center;
-}
-.image-containera1, .image-containera2, .image-containera3{
-  margin: 10%;
-  align-items: center;
-  align-self: center;
-  height: auto;
-  justify-content: center;
-  justify-self: center;
-  justify-items: center;
-}
-.image-containere1, .image-containere2{
-  margin: 10%;
-  align-items: center;
-  align-self: center;
-  height: auto;
-  justify-content: center;
-  justify-self: center;
-  justify-items: center;
-}
-
-
-/* =----------------------------PRODUCTO------------------------*/
-
-.ropamujer{
-  width: 95%; 
-  max-width: auto;
-  height: 70vh;
-  margin: auto;
-  display: flex;
-  align-items: center; 
-  justify-content: space-around; 
-  box-sizing: border-box; 
-  font-family: "Open Sans", sans-serif;
-  font-size: large;
-  color:rgb(0, 0, 0);
-}
-
-
-.contenedorproducto{
-  margin: 5%;
-  display: flex;
-  align-items: center;
-  min-height: 100vh;
-  height: auto;
-  max-width: 78%;
-}
 /* --------------------------------------------------- CARRITO --------------------------------------------------*/
  
   .productoAgregado{
@@ -584,7 +477,14 @@ text-decoration: none;
     background-color: #0056b3; 
   }
 
+  .error-message {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 5px;
+    display: none;
+  }
 
+  
 
 /* ---------------------------------------------------- MEDIA QUERIES ------------------------------------------------------- */
 
@@ -783,9 +683,3 @@ text-decoration: none;
     }
 }
 
-.error-message {
-  color: red;
-  font-size: 0.8em;
-  margin-top: 5px;
-  display: none;
-}

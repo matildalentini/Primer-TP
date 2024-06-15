@@ -1,29 +1,36 @@
+console.log(location.search);
+let queryString = location.search;
 
-fetch('https://fakestoreapi.com/products')
-    .then(function(response){
-        return response.json()
+let queryStringObj = new URLSearchParams(queryString);
+
+let category = queryStringObj.get('category');
+
+console.log(category);
+
+fetch(`https://fakestoreapi.com/products/category/${category}`)
+    .then(function(res){
+        return res.json();
     })
     .then(function(data){
         console.log(data);
-        let section=document.querySelector(".clothesList")
-        let ropaElegida=""
+        let section = document.querySelector(".productList");
+        let productsHTML = "";
 
-        for(let i=0; i<data.results.length; i++){
-            let char= data.results[i];
-            personajesRecorridos+= ` <article class= "characters">
-                                  <img src="${char.image}" alt='${char.name}'>
-                                    <a href="./producto.html?id=${char.id}"> 
-                                        <p>Talle: ${char.size}</p>
-                                    </a>
-                                    <p>Precio: ${char.price} </p>
-                                    </article>
-                                    `;
+        for (let i = 0; i < data.length; i++) {
+            let product = data[i];
+            productsHTML += `
+                <div class="product">
+                    <h2>${product.title}</h2>
+                    <p>Precio: $${product.price}</p>
+                    <p>Descripción: ${product.description}</p>
+                    <p>Categoría: ${product.category}</p>
+                    <img src="${product.image}" alt="${product.title}">
+                    <a href="./product.html?id=${product.id}">Ver detalles</a>
+                </div>
+            `;
         }
-        section.innerHTML= ropaElegida
-
+        section.innerHTML = productsHTML;
     })
-
-    
-    .catch(function(error) {
-        console.log("Error: " + error);
-    })
+    .catch(function(err){
+        console.log(err);
+    });
