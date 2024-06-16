@@ -48,11 +48,10 @@ document.getElementById('form').addEventListener('submit', function(event) {
         alert("Tienes que aceptar los términos y condiciones");
         valid = false;
     }
-
+    
+//para redirigir a la pagina de login 
     if (valid) {
-        // Redirigir al formulario de login (simulado aquí con un mensaje en consola)
         console.log('Formulario válido. Redirigiendo al formulario de login.');
-        // Simulación de redirección:
         window.location.href = 'login.html';  // Cambiar a la página correcta
         
     }

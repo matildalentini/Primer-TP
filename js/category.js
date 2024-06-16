@@ -22,10 +22,9 @@ fetch(`https://fakestoreapi.com/products/category/${category}`)
                 <div class="product">
                     <h2>${product.title}</h2>
                     <p>Precio: $${product.price}</p>
-                    <p>Descripción: ${product.description}</p>
                     <p>Categoría: ${product.category}</p>
                     <img src="${product.image}" alt="${product.title}">
-                    <a href="./product.html?id=${product.id}">Ver detalles</a>
+                    <a href="./producto.html?id=${product.id}">Ver detalles</a>
                 </div>
             `;
         }
