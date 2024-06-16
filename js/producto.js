@@ -14,6 +14,9 @@ fetch(`https://fakestoreapi.com/products/${productId}`)
     .then(function(data){
         console.log(data);
 
+        let imagen = document.querySelector("img");
+        imagen.src = data.image;
+
         let name = document.querySelector(".nombre");
         name.innerText = data.title;
 
@@ -25,10 +28,10 @@ fetch(`https://fakestoreapi.com/products/${productId}`)
 
         let categoria = document.querySelector(".categoria");
         categoria.innerText += data.category;
-        
-        let imagen = document.querySelector("img");
-        imagen.src = data.image;
+
     })
+
+    
     .catch(function(err){
         console.log(err);
     });
