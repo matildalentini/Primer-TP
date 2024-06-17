@@ -33,3 +33,19 @@ fetch(`https://fakestoreapi.com/products/category/${category}`)
     .catch(function(err){
         console.log(err);
     });
+
+
+
+
+
+
+
+function sumarProductosAlCarrito(){
+    console.log("producto agregado")
+    const id="1"
+    const carritoPrevio= localStorage.getItem("carrito")
+    const carritoDividido= carritoPrevio.split(";")
+    carritoDividido.push(id)
+    const nuevoCarrito= carritoDividido.join(";")
+    localStorage.setItem("carrito" , nuevoCarrito)
+}
