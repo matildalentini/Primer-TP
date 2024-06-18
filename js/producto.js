@@ -27,7 +27,12 @@ fetch(`https://fakestoreapi.com/products/${productId}`)
         descripcion.innerText += data.description;
 
         let categoria = document.querySelector(".categoria");
-        categoria.innerText += data.category;
+        categoria.innerText = data.category;
+        categoria.href = `./category.html?category=${encodeURIComponent(data.category)}`;
+        categoria.addEventListener('click', function(event) {
+            event.preventDefault();
+            window.location.href = this.href;
+        });
 
     })
 

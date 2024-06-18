@@ -1,16 +1,16 @@
 
 
-document.getElementById('form').addEventListener('submit', function(event) {
+document.querySelector('#form').addEventListener('submit', function(event) {
     event.preventDefault();
 
-    let campoEmail = document.getElementById('email');
-    let campoContraseña = document.getElementById('password');
-    let campoReContraseña = document.getElementById('repassword');
-    let termsCheckbox = document.getElementById('terms');
+    let campoEmail = document.querySelector('#email');
+    let campoContraseña = document.querySelector('#password');
+    let campoReContraseña = document.querySelector('#repassword');
+    let termsCheckbox = document.querySelector('#terms');
 
-    let emailError = document.getElementById('email-error');
-    let passwordError = document.getElementById('password-error');
-    let repasswordError = document.getElementById('repassword-error');
+    let emailError = document.querySelector('#email-error');
+    let passwordError = document.querySelector('#password-error');
+    let repasswordError = document.querySelector('#repassword-error');
 
     emailError.style.display = 'none';
     passwordError.style.display = 'none';
@@ -19,13 +19,13 @@ document.getElementById('form').addEventListener('submit', function(event) {
     let valid = true;
 
     if (campoEmail.value.trim() === '') {
-        emailError.textContent = 'Por favor complete el campo';
+        emailError.textContent = 'Por favor complete el campo email';
         emailError.style.display = 'block';
         valid = false;
     }
 
     if (campoContraseña.value.trim() === '') {
-        passwordError.textContent = 'Por favor complete el campo';
+        passwordError.textContent = 'Por favor complete el campo contraseña';
         passwordError.style.display = 'block';
         valid = false;
     } else if (campoContraseña.value.length < 6) {
@@ -35,7 +35,7 @@ document.getElementById('form').addEventListener('submit', function(event) {
     }
 
     if (campoReContraseña.value.trim() === '') {
-        repasswordError.textContent = 'Por favor complete el campo';
+        repasswordError.textContent = 'Por favor complete el campo de repetir contraseña';
         repasswordError.style.display = 'block';
         valid = false;
     } else if (campoContraseña.value !== campoReContraseña.value) {
@@ -48,11 +48,10 @@ document.getElementById('form').addEventListener('submit', function(event) {
         alert("Tienes que aceptar los términos y condiciones");
         valid = false;
     }
-    
-//para redirigir a la pagina de login 
+
+    // Para redirigir a la página de login
     if (valid) {
         console.log('Formulario válido. Redirigiendo al formulario de login.');
         window.location.href = 'login.html';  // Cambiar a la página correcta
-        
     }
 });
