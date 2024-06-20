@@ -9,6 +9,16 @@ body, html {
   background-position: center; 
 }
 
+.bienvenida{
+  justify-content: center;
+  align-items: center;
+  display: block;
+}
+
+.registro{
+  display: block;
+}
+
 .title{
   display: flex;
   justify-content: center;
