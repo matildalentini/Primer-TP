@@ -6,7 +6,7 @@
 
 //  *  Si el formulario cumple con las validaciones deberá guardar el email del usuario en localstorage y redirigir a la página principal.
 
-let formulario = document.querySelector("form")
+let formulario = document.querySelector("#login")
 
 let campoEmail = document.querySelector("#email");
 let emailError = document.querySelector("#email-error");
@@ -30,8 +30,9 @@ formulario.addEventListener('submit', function(event) {
     } else if (campoContrasena.value.length < 6){
         alert("La contraseña debe tener al menos 6 caracteres")
     } else{
+        localStorage.setItem("userEmail", campoEmail.value);
+        localStorage.setItem("userPassword", campoContrasena.value);
         formulario.submit()
         document.location.href = "index.html"
-        localStorage.setItem("userEmail", campoEmail.value)
 }
 });
