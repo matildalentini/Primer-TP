@@ -2,6 +2,7 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     let cartContainer = document.querySelector('.cart-container');
+    let finalizarCompraBtn = document.querySelector('.finalizar-compra');
 
     // Verificar si hay productos en el carrito en localStorage
     let cartProducts = JSON.parse(localStorage.getItem('cartProducts')) || [];
@@ -9,6 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (cartProducts.length === 0) {
         // Mostrar mensaje de carrito vacío
         cartContainer.innerHTML = '<p>Su carrito está vacío.</p>';
+        finalizarCompraBtn.style.display = 'none';
     } else {
         // Recuperar datos de cada producto del carrito desde la API
         cartProducts.forEach(productId => {
@@ -29,17 +31,19 @@ document.addEventListener('DOMContentLoaded', function() {
                 });
         });
 
-        // Crear y agregar el botón "Finalizar Compra"
-        cartContainer.innerHTML += '<button id="checkoutBtn">Finalizar Compra</button>';
+        // Mostrar el botón "Finalizar Compra"
+        finalizarCompraBtn.style.display = 'block';
 
-        // agregarle el evento click al botón "Finalizar Compra"
-        document.getElementById('checkoutBtn').addEventListener('click', function() {
+        // Agregar evento al botón "Finalizar Compra"
+        finalizarCompraBtn.addEventListener('click', function() {
             // Limpiar localStorage
             localStorage.removeItem('cartProducts');
+
             // Mostrar mensaje de agradecimiento
             alert('¡Gracias por su compra!');
+
             // Redirigir a la página principal
-            window.location.href = './index.html';
+            document.location.href = './index.html';
         });
     }
 });
