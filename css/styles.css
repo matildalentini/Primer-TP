@@ -378,6 +378,31 @@ text-decoration: none;
 }  /* solo en index y producto  no se si en producto deberia estar o no */
 
 /* contenedores grandes "section" */
+
+.products-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  margin-top: 0%;
+  padding-top: 0%;
+  margin: 5%;
+  column-gap: 10%;
+  text-align: center;
+
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color:black;
+  font-size: 17px;
+}
+
+
+
+
+
 .ropawom1, .ropawom2{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

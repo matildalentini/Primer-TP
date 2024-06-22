@@ -14,7 +14,7 @@ function cargarProductosMujer() {
             data.forEach(product => {
                 productosHTML += `
                     <article class="producto">
-                        <a href="./product.html?id=${product.id}">
+                        <a href="./producto.html?id=${product.id}">
                             <img src="${product.image}" alt="${product.title}">
                             <h2>${product.title}</h2>
                             <p>${product.description}</p>
@@ -22,6 +22,7 @@ function cargarProductosMujer() {
                             <button class="ver-mas">Ver Más</button>
                         </a>
                     </article>`;
+
             });
             document.getElementById('women-section').innerHTML = productosHTML;
         })
