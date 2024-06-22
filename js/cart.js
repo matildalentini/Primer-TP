@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let finalizarCompraBtn = document.querySelector('.finalizar-compra');
 
     // Verificar si hay productos en el carrito en localStorage
-    let cartProducts = JSON.parse(localStorage.getItem('cartProducts')) || [];
+    let cartProducts = JSON.parse(localStorage.getItem('cartProducts')); [];
 
     if (cartProducts.length === 0) {
         // Mostrar mensaje de carrito vacío
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="product">
                             <h2>${data.title}</h2>
                             <img src="${data.image}" alt="${data.title}">
-                            <p>Price: $${data.price}</p>
+                            <p>Precio: $${data.price}</p>
                             <p>${data.description}</p>
                         </div>
                     `;
@@ -32,14 +32,13 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
         // Mostrar el botón "Finalizar Compra"
-        finalizarCompraBtn.style.display = 'block';
+        finalizarCompraBtn.style.display = 'inline-block';
 
         // Agregar evento al botón "Finalizar Compra"
-        finalizarCompraBtn.addEventListener('click', function() {
+        finalizarCompraBtn.addEventListener('click', function(event) {
+            event.preventDefault();
             // Limpiar localStorage
             localStorage.removeItem('cartProducts');
-
-            // Mostrar mensaje de agradecimiento
             alert('¡Gracias por su compra!');
 
             // Redirigir a la página principal
