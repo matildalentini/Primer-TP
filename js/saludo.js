@@ -12,7 +12,7 @@ console.log(mail);
 
 welcome.innerHTML = `<section class="bienvenida">  
                           <h2>Bienvenido: ${mail}</h2>
-                          <a href="../html/register.html">LOG OUT</a>
+                          <a href="./index.html">LOG OUT</a>
                      </section>`
 
 
