@@ -1,23 +1,22 @@
 
-document.addEventListener('DOMContentLoaded', () => {
-    let logoutLink = document.querySelector('#logout-link');
 
-    if (logoutLink) {
-        logoutLink.addEventListener('click', (event) => {
-            event.preventDefault();
-            
-            // Remove user data from localStorage
-            localStorage.removeItem('userEmail');
-            
-            // Show login and register links
-            let loginLink = document.querySelector('#login-link');
-            let registerLink = document.querySelector('#register-link');
+let logoutLink = document.querySelector('#logout-link');
+let welcomeMessage = document.querySelector('#welcomeMessage');
+let loginLink = document.querySelector('#login-link');
+let registerLink = document.querySelector('#register-link');
 
-            if (loginLink) loginLink.style.display = 'block';
-            if (registerLink) registerLink.style.display = 'block';
+if (logoutLink) {
+    logoutLink.addEventListener('click', function(event) {
+        event.preventDefault();
 
-            // Optionally, redirect to the homepage or login page
-            window.location.href = './index.html';
-        });
-    }
-});
+        localStorage.removeItem('userEmail');
+
+        welcomeMessage.style.display = 'none';
+        logoutLink.style.display = 'none';
+
+        if (loginLink) loginLink.style.display = 'block';
+        if (registerLink) registerLink.style.display = 'block';
+
+        document.location.href = "./index.html";
+    });
+}
