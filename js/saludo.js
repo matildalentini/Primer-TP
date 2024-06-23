@@ -6,24 +6,18 @@
 
 let welcome = document.querySelector(".bienvenida")
 
+let mail = localStorage.getItem("userEmail")
 
-welcome.addEventListener()
+console.log(mail);
 
-<section class="bienvenida">
-   <h2>Bienvenido: </h2>
-  </section>
+welcome.innerHTML = `<section class="bienvenida">  
+                          <h2>Bienvenido: ${mail}</h2>
+                          <a href="../html/register.html">LOG OUT</a>
+                     </section>`
 
 
-titulo.addEventListener("mouseover", function(){
-    let nombre = prompt("¿COMO TE LLAMAS?")
-    console.log(nombre);
 
-    if (saludo===null){
-        saludo.innerHTML = `BIENVENID@"`
-    } else{
-        saludo.innerHTML = `BIENVENID@ ${nombre}`
-    };
-
+//
     saludo.style.textTransform = "uppercase"
     titulo.style.display = "none"
     span.style.display = "inline"
@@ -33,4 +27,3 @@ titulo.addEventListener("mouseover", function(){
         personajes.style.display = "flex"
     })
     
-});

@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', function() {
     cargarProductosMujer();
     cargarProductosHombre();
     cargarProductosAccesorios();
-    cargarProductosElectronica();
 });
 
 // Función para cargar productos de ropa de mujer

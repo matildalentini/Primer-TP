@@ -31,8 +31,8 @@ formulario.addEventListener('submit', function(event) {
         alert("La contraseña debe tener al menos 6 caracteres")
     } else{
         localStorage.setItem("userEmail", campoEmail.value);
-        localStorage.setItem("userPassword", campoContrasena.value);
         formulario.submit()
         document.location.href = "index.html"
 }
 });
+
