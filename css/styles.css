@@ -12,8 +12,23 @@ body, html {
 .bienvenida{
   justify-content: center;
   align-items: center;
-  display: block;
+  display: grid;
+  grid-template-columns: 80% 20%;
+  text-align: center;
+  background-color: rgb(169, 167, 167);
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
+
+a:visited{
+  color: inherit;
+  text-decoration: none;
+}
+
 
 .registro{
   display: block;

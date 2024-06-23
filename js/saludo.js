@@ -16,6 +16,17 @@ welcome.innerHTML = `<section class="bienvenida">
                      </section>`
 
 
+let desaparecer = document.querySelector(".identidad")
+
+function ocultarElementos(){
+    if(userEmail.value == ''){
+        welcome.style.display = "none"
+    } else{
+        welcome.style.display = "inline"
+        desaparecer.style.display = "none"
+    }
+}
+
 
 //
     saludo.style.textTransform = "uppercase"
