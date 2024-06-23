@@ -13,13 +13,15 @@ function cargarProductosMujer() {
             let productosHTML = "";
             data.forEach(product => {
                 productosHTML += `
-                  <article class="producto">
+                    <article class="producto">
+                        <a href="./producto.html?id=${product.id}">
                             <img src="${product.image}" alt="${product.title}">
                             <h2>${product.title}</h2>
                             <p>${product.description}</p>
                             <h3>Price: $${product.price}</h3>
                             <a href="./producto.html?id=${product.id}">Ver detalles</a>
                     </article>`;
+
             });
             document.getElementById('women-section').innerHTML = productosHTML;
         })
