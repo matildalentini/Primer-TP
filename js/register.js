@@ -52,6 +52,6 @@ document.querySelector('#form').addEventListener('submit', function(event) {
     // Para redirigir a la página de login
     if (valid) {
         console.log('Formulario válido. Redirigiendo al formulario de login.');
-        window.location.href = 'login.html';  // Cambiar a la página correcta
+        document.href = 'login.html';  // Cambiar a la página correcta
     }
 });
