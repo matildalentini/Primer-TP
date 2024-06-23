@@ -1,9 +1,9 @@
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', function() {
     let logoutLink = document.querySelector('#logout-link');
 
     if (logoutLink) {
-        logoutLink.addEventListener('click', (event) => {
+        logoutLink.addEventListener('click', function(event) {
             event.preventDefault();
             
             // Remove user data from localStorage
@@ -13,9 +13,10 @@ document.addEventListener('DOMContentLoaded', () => {
             let loginLink = document.querySelector('#login-link');
             let registerLink = document.querySelector('#register-link');
 
-            if (loginLink) loginLink.style.display = 'block';
-            if (registerLink) registerLink.style.display = 'block';
+            if (loginLink) loginLink.innerText = 'Log in';
+            if (registerLink) registerLink.innerText = 'Register';
 
         });
     }
 });
+
