@@ -121,33 +121,29 @@ body, html {
   justify-content: space-between;
   padding: 10%;
 }
+
 .settings :hover{
   text-decoration: underline;
 }
 
-  .R{
-    margin-left: 5%;}
-
-    img{
-      height:100%;
-      max-width: 100%;
-    }
+img{
+  height:100%;
+  max-width: 100%;
+}
  
-  .palito{
-    font-size: 15px;
-  }
+.palito{
+  font-size: 15px;
+}
   
-  .social{
-    color:rgb(186, 186, 186);
-    /* color: rgb(50, 50, 50);   otro social de men creo tiene este color*/
-    font-size: 30px;
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-    text-decoration: none;
-    /* border-left:100px;   y aca tambien tiene este border */
-  }
+.social{
+  color:rgb(186, 186, 186);
+  font-size: 30px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  text-decoration: none;
+}
     
   
 .media{
@@ -276,7 +272,7 @@ text-decoration: none;
   text-decoration: underline;
 }
  
-.intro , .intros , .lastp{
+.intro , .lastp{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
@@ -318,42 +314,7 @@ text-decoration: none;
   font-size: 17px;
 }
 
-
-
-
-
-
-
 /* sub contenedores "divs" */
-.producto{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  .price, .description {
-    margin-bottom: 5px;
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-    font-variation-settings: "wdth" 100;
-    color: black;
-    
-  }
-
-  .add-to-cart {
-    padding: 4px 8px;
-    background-color: #818181;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-  }
-  
-  .add-to-cart:hover {
-    background-color: #303030;
-  }
 
   .products-section {
     display: grid;
@@ -402,22 +363,6 @@ text-decoration: none;
     margin: 8px 0;
 }
 
-.add-to-cart {
-    display: inline-block;
-    padding: 8px 16px;
-    background-color: #3498db;
-    color: white;
-    text-decoration: none;
-    border-radius: 4px;
-    border: 1px solid #3498db;
-    transition: background-color 0.3s ease;
-    cursor: pointer;
-}
-
-.add-to-cart:hover {
-    background-color: #2980b9;
-    border-color: #2980b9;
-}
 /* ---------------------------------------------------------- PRODUCTO ------------------------------------------------------------ */
 .product-container {
   background-color: white;

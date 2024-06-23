@@ -1,5 +1,10 @@
 
 
+cargarProductosMujer();
+cargarProductosHombre();
+cargarProductosAccesorios();
+
+
 function cargarProductosMujer() {
     fetch('https://fakestoreapi.com/products/category/women\'s clothing')
         .then(function(res){
