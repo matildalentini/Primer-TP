@@ -359,7 +359,6 @@ text-decoration: none;
   margin-top: 10%;
 }  /* solo en index y producto  no se si en producto deberia estar o no */
 
-<<<<<<< HEAD
 /* contenedores grandes "section" */
 
 .products-section{
@@ -386,25 +385,8 @@ text-decoration: none;
 
 
 
-.ropawom1, .ropawom2{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-.ropamen1, .ropamen2{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-.accessories1, .accessories2{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-.electronics1, .electronics2{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
 
-=======
->>>>>>> bd7a39150baff5a31ad8c52fc5f0f185fdac0230
+
 /* sub contenedores "divs" */
 .producto{
     display: flex;
