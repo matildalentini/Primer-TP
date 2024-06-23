@@ -41,8 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
             localStorage.removeItem('cartProducts');
             alert('¡Gracias por su compra!');
 
-            // Redirigir a la página principal
-            document.location.href = './index.html';
+
         });
     }
 });
