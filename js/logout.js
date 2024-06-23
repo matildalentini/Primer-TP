@@ -16,8 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
             if (loginLink) loginLink.style.display = 'block';
             if (registerLink) registerLink.style.display = 'block';
 
-            // Optionally, redirect to the homepage or login page
-            window.location.href = './index.html';
         });
     }
 });
