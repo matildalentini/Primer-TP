@@ -12,7 +12,7 @@ console.log(mail);
 
 welcome.innerHTML = `<section class="bienvenida">  
                           <h2>Bienvenido: ${mail}</h2>
-                          <a href="./index.html">LOG OUT</a>
+                          <a href="./index.html" id="logout-link">LOG OUT</a>
                      </section>`
 
 
@@ -37,4 +37,3 @@ function ocultarElementos(){
         bienvenida.style.display = "none"
         personajes.style.display = "flex"
     })
-    
