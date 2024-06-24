@@ -41,17 +41,20 @@ Un checkbox con la leyenda "Quiero recuperar mi contraseña". -->
 <section class="recover">
     <div class="recoverForm">
 
-        <form action="" method="GET" id="form">
+        <form action="">
             <label for="email">Ingrese su mail de usuario</label>
             <input for="email" type="email" name="email" value="" placeholder="Mail de Usuario" id="email">
-            <div id="email-error" class="error-message"></div> 
+            <div id="email-error" class="error-message"></div> <br><br>
 
             <label for="checkboxTerms">
               <input type="checkbox" name="recup" value="recuperar" id="check">
               Quiero Recuperar Mi Contraseña
+              <p class="errorCheckbox"> </p>
             </label>
 
             <button type="submit">  Recuperar </button>
+            <p class="aviso"></p>
+            <a href="./login.html" class="ir" id="ir"> Ir a Login </a>
         </form>
 
     </div>

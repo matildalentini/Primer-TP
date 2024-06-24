@@ -27,8 +27,8 @@ if (cartProducts.length === 0) {
                     </div>
                 `;
             })
-            .catch(function(err) {
-                console.log(err);
+            .catch(function(error) {
+                console.log(error);
             });
     });
 
@@ -38,7 +38,6 @@ if (cartProducts.length === 0) {
     // Agregar evento al botón "Finalizar Compra"
     finalizarCompraBtn.addEventListener('click', function(event) {
         event.preventDefault();
-        // Limpiar localStorage
         localStorage.removeItem('cartProducts');
         alert('¡Gracias por su compra!');
         cartContainer.innerHTML = '<p>Su carrito está vacío.</p>';

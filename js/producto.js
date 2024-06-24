@@ -24,6 +24,7 @@ fetch('https://fakestoreapi.com/products/' + productId)
         `;
 
         let addToCartBtn = productContainer.querySelector('.add-to-cart');
+
         addToCartBtn.addEventListener('click', function(event) {
             event.preventDefault();
             let cartProducts = JSON.parse(localStorage.getItem('cartProducts')) || [];
