@@ -11,7 +11,7 @@ function cargarProductosMujer() {
             return res.json();
         })
         .then(function(data){
-            var productosHTML = "";
+            let productosHTML = "";
             data.forEach(function(product){
                 productosHTML += `
                     <article class="producto">
@@ -36,7 +36,7 @@ function cargarProductosHombre() {
             return res.json();
         })
         .then(function(data){
-            var productosHTML = "";
+            let productosHTML = "";
             data.forEach(function(product){
                 productosHTML += `
                     <article class="producto">
@@ -61,7 +61,7 @@ function cargarProductosAccesorios() {
             return res.json();
         })
         .then(function(data){
-            var productosHTML = "";
+            let productosHTML = "";
             data.forEach(function(product){
                 productosHTML += `
                     <article class="producto">

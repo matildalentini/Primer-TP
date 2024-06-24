@@ -36,7 +36,7 @@ if (cartProducts.length === 0) {
     finalizarCompraBtn.style.display = 'inline-block';
 
     // Agregar evento al botón "Finalizar Compra"
-    finalizarCompraBtn.addEventListener('click', function(event) {
+    finalizarCompraBtn.addEventListener('click', function() {
         localStorage.removeItem('cartProducts');
         alert('¡Gracias por su compra!');
         cartContainer.innerHTML = '<p>Su carrito está vacío.</p>';

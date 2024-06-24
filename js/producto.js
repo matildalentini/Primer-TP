@@ -35,6 +35,7 @@ fetch('https://fakestoreapi.com/products/' + productId)
     })
     .catch(function(error) {
         console.error('Error al cargar el producto:', error);
+        
         let productContainer = document.querySelector('.product-details');
         productContainer.innerHTML = '<p>Error al cargar el producto.</p>';
     });
