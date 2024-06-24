@@ -4,36 +4,29 @@
 
 // La funcionalidad no tiene asociado un archivo html específico. Es una funcionalidad que puede estar en muchas partes del proyecto. Si bien deben desarrollarla en un archivo javascript individual deberán identificar en qué htmls debe relacionarlo.
 
+
 let welcome = document.querySelector(".bienvenida")
 
 let mail = localStorage.getItem("userEmail")
 
+let oculto = document.querySelector(".identidad")
+
+
+
 console.log(mail);
 
-welcome.innerHTML = `<section class="bienvenida">  
+welcome.innerHTML = `<section class="bienvenida">
                           <h2>Bienvenido: ${mail}</h2>
-                          <a href="./index.html" id="logout-link">LOG OUT</a>
+                          <a href="../html/register.html" class="logout">LOG OUT</a>
                      </section>`
 
 
-let desaparecer = document.querySelector(".identidad")
-
-function ocultarElementos(){
-    if(userEmail.value == ''){
-        welcome.style.display = "none"
+function desaparecer(){
+    if(mail){
+        welcome.style.display = "inline";
+        oculto.style.display = "block";
     } else{
-        welcome.style.display = "inline"
-        desaparecer.style.display = "none"
+        welcome.style.display = "none";
+        oculto.style.display = "inline";
     }
 }
-
-
-//
-    saludo.style.textTransform = "uppercase"
-    titulo.style.display = "none"
-    span.style.display = "inline"
-
-    span.addEventListener("click", function(){
-        bienvenida.style.display = "none"
-        personajes.style.display = "flex"
-    })

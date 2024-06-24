@@ -1,6 +1,6 @@
 
 
-let logoutLink = document.querySelector('#logout-link');
+let logoutLink = document.querySelector('.logout');
 let welcome = document.querySelector('.bienvenida');
 let desaparecer = document.querySelector('.identidad');
 let loginLink = document.querySelector('#login-link');
@@ -17,8 +17,11 @@ if (logoutLink) {
         welcome.style.display = 'none';
 
         // Volver a mostrar los elementos "login" y "registro" en el menú
-        if (loginLink) loginLink.style.display = 'block';
-        if (registerLink) registerLink.style.display = 'block';
-
+        if (loginLink) {
+            loginLink.style.display = 'block';
+        }
+        if (registerLink){
+            registerLink.style.display = 'block';
+        }
     });
 }
