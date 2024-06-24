@@ -30,10 +30,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 
-<!-- Es la página con el formulario para recuperar la contraseña. El formulario debe estar centrado en la página tanto horizontal como verticalmente. Debe contar con los siguientes campos:
-Email. /
-Botón con la leyenda "Recuperar" . /
-Un checkbox con la leyenda "Quiero recuperar mi contraseña". -->
 
 <body class="bodyFormularios">
   <header> <a class="title" href="./index.html">VINOVA </a></header>
@@ -41,17 +37,20 @@ Un checkbox con la leyenda "Quiero recuperar mi contraseña". -->
 <section class="recover">
     <div class="recoverForm">
 
-        <form action="" method="GET" id="form">
+        <form action="">
             <label for="email">Ingrese su mail de usuario</label>
             <input for="email" type="email" name="email" value="" placeholder="Mail de Usuario" id="email">
-            <div id="email-error" class="error-message"></div> 
+            <div id="email-error" class="error-message"></div> <br><br>
 
             <label for="checkboxTerms">
               <input type="checkbox" name="recup" value="recuperar" id="check">
               Quiero Recuperar Mi Contraseña
+              <p class="errorCheckbox"> </p>
             </label>
 
             <button type="submit">  Recuperar </button>
+            <p class="aviso"></p>
+            <a href="./login.html" class="ir" id="ir"> Ir a Login </a>
         </form>
 
     </div>

@@ -12,7 +12,7 @@ if (cartProducts.length === 0) {
     finalizarCompraBtn.style.display = 'none';
 } else {
     // Recuperar datos de cada producto del carrito desde la API
-    cartProducts.forEach(productId => {
+    cartProducts.forEach(function(productId) {
         fetch(`https://fakestoreapi.com/products/${productId}`)
             .then(function(res) {
                 return res.json();
@@ -27,8 +27,8 @@ if (cartProducts.length === 0) {
                     </div>
                 `;
             })
-            .catch(function(err) {
-                console.log(err);
+            .catch(function(error) {
+                console.log(error);
             });
     });
 
@@ -36,9 +36,7 @@ if (cartProducts.length === 0) {
     finalizarCompraBtn.style.display = 'inline-block';
 
     // Agregar evento al botón "Finalizar Compra"
-    finalizarCompraBtn.addEventListener('click', function(event) {
-        event.preventDefault();
-        // Limpiar localStorage
+    finalizarCompraBtn.addEventListener('click', function() {
         localStorage.removeItem('cartProducts');
         alert('¡Gracias por su compra!');
         cartContainer.innerHTML = '<p>Su carrito está vacío.</p>';

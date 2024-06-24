@@ -32,7 +32,7 @@ fetch(`https://fakestoreapi.com/products/category/${category}`)
         }
         section.innerHTML = productsHTML;
     })
-    .catch(function(err){
-        console.log(err);
+    .catch(function(error){
+        console.log(error);
     });
 
