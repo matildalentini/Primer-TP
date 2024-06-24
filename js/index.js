@@ -24,8 +24,8 @@ function cargarProductosMujer() {
             });
             document.getElementById('women-section').innerHTML = productosHTML;
         })
-        .catch(function(err){
-            console.error(err);
+        .catch(function(error){
+            console.error(error);
         });
 }
 
@@ -49,8 +49,8 @@ function cargarProductosHombre() {
             });
             document.getElementById('men-section').innerHTML = productosHTML;
         })
-        .catch(function(err){
-            console.error(err);
+        .catch(function(error){
+            console.error(error);
         });
 }
 
@@ -74,7 +74,7 @@ function cargarProductosAccesorios() {
             });
             document.getElementById('accessories-section').innerHTML = productosHTML;
         })
-        .catch(function(err){
-            console.error(err);
+        .catch(function(error){
+            console.error(error);
         });
 }
