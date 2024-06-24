@@ -9,24 +9,19 @@ let welcome = document.querySelector(".bienvenida")
 
 let mail = localStorage.getItem("userEmail")
 
-let oculto = document.querySelector(".identidad")
+let oculto = document.querySelector(".oculto")
 
-
-
+console.log(welcome);
 console.log(mail);
 
-welcome.innerHTML = `<section class="bienvenida">
-                          <h2>Bienvenido: ${mail}</h2>
-                          <a href="../html/register.html" class="logout">LOG OUT</a>
-                     </section>`
+welcome.innerHTML = `<h2>Bienvenido: ${mail}</h2>
+                     <a href="../html/login.html" class="logout">LOG OUT</a>`
 
 
-function desaparecer(){
-    if(mail){
-        welcome.style.display = "inline";
-        oculto.style.display = "block";
-    } else{
-        welcome.style.display = "none";
-        oculto.style.display = "inline";
-    }
+if(mail){
+    welcome.style.display = "block";
+    oculto.style.display = "none";
+} else{
+    welcome.style.display = "none";
+    oculto.style.display = "block";
 }
