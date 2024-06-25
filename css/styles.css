@@ -56,7 +56,6 @@ a:visited{
 }
 
 
-
 .lista{
   display: block;
   justify-content: center;
@@ -94,7 +93,7 @@ a:visited{
   width:100%;
   height:80%;
 }
-.titulorw , .titulorm , .tituloa , .tituloe{
+.titulorw , .titulorm , .tituloa {
   font-family:  "Bebas Neue", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -262,7 +261,6 @@ img{
 }
 
 
-/* ------------------------------------------ solo esta en el index ------------------------------------------------------------*/
 
 
 .subt{
@@ -444,50 +442,6 @@ text-decoration: none;
   margin: 4px 0; /* Reducir el espacio vertical del texto */
 }
 
-
-/* --------------------------------------------------- CARRITO --------------------------------------------------*/
- 
-  .productoAgregado{
-    width: 70%; 
-    max-width: auto;
-    height: 70vh;
-    margin: auto;
-    display: flex;
-    align-items: center; 
-    justify-content: space-around; 
-    border: 2px solid #cfcfcf; 
-    border-radius: 1%;
-    padding: 0.2%; 
-    box-sizing: border-box; 
-    font-family: "Open Sans", sans-serif;
-  }
-  
-  .imagenCarrito{
-
-    display: flex; 
-    align-items: center; 
-
-  }
-  .imgdetalle{
-    margin-right: 20px; 
-    max-width: 50%;
-    max-height: 50%;
-    display: block;
-    margin: auto;
-
-  }
-
-  .imagenCarrito img {
-    margin-right: 20px; 
-    max-width: 50%;
-    max-height: 50%;
-    display: block;
-    margin: auto;
-  }
-  
-  .descripcionImagenCarrito{
-    flex-grow: 1;
-  }
   
   .error-message {
     color: red;
@@ -611,102 +565,3 @@ text-decoration: none;
       right: 25px;
     }
 }
-
-
-@media (max-width: 420px) {       /*IPhone 12*/
-  html{
-   max-width: 420px;
-  }
-
-  /*index*/
-  .ropawom1, .ropawom2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  .ropamen1, .ropamen2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  .accessories1, .accessories2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  .electronics1, .electronics2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-    }
-
-    /* cart */
-    .productoAgregado{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      height: 30vh;
-      justify-content: space-around; 
-      box-sizing: border-box; 
-    }
-
-    .descripcionImagenCarrito{
-      justify-content: center;
-    }
-
-    .imagenCarrito{
-      display: flex; 
-      align-items: center; 
-      }
-  
-      .imagenCarrito img {
-        max-width: 80%; 
-        max-height: 80%; 
-        margin: auto; 
-      }
-
-  /* login, register y recover*/
-
-  header{
-    max-width: 420px;
-  }
-
-  footer{
-    max-width: 420px;
-  }
-
-  .bodyFormularios{
-    margin: 0px;
-    padding: 0px;
-    max-width: 420px;
-    max-width: 420px;
-  }
-       
-  .register, .login, .recover{
-    width: 200px; 
-    margin: auto ; 
-    padding: 30px; 
-    font-size: 15px;
-  }
-  
-  .registerForm, .loginForm, .recoverForm{
-    padding: 9px;
-  }
-  
-
-    .registro{
-      position:absolute;
-      top: 2px; /* Adjust top spacing */
-      right: 25%;
-    }
-    .cart{
-      position:absolute;
-      top: 1px; /* Adjust top spacing */
-      right: 25px;
-    }
-}
-
