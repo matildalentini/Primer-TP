@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VINOVA | New Collection Online</title>
-    <link rel="icon" href="../img/icon.png" type="image/x-icon">
-    <link href="../css/styles.css" rel="stylesheet">
-  
+    <title>Login | Vinova</title>
+    <link rel="icon" href="./img/icon.png" type="image/x-icon">
+
+    <link href="./css/styles.css" rel="stylesheet">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -27,50 +28,61 @@
   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  
-  </head>
-<body>
 
-<header>
-  <section class="bienvenida"></section>
+<!--Es la página con el formulario de login del sitio. El formulario debe estar centrado en la página tanto horizontal como verticalmente. Debe contar con los siguientes campos:
+Email. 
+Contraseña 
+Botón con la leyenda "ingresar".  
+Link al formulario de registro con el texto "No tengo cuenta". 
+Link al formulario para recuperar contraseña con el texto "Recuperar contraseña".-->
 
-  <nav class="registro">
-      <a class="cart" href="./cart.html" target="_blank"><i class="fas fa-shopping-cart"></i></a>
-    <section class="oculto">
-      <a class="identidad L" href="./login.html" target="_blank"> <i class="fa fa-user"></i></a>
-      <a class="identidad R" href="./register.html"> REGISTER </a>
-    </section>
-  </nav>
- 
-  
-  <a class="title" href="./index.html">VINOVA </a>
-  
-    <nav>
-      <ul class="ul">
-        <li> <a class="lista" href="./category.html?category=women's clothing"> WOMEN </a> </li>
-        <li> <a class="lista" href="./category.html?category=men's clothing"> MEN </a></li>
-        <li> <a class="lista" href="./category.html?category=jewelery"> ACCESSORIES </a></li>
-        <li> <a class="lista" href="./category.html?category=electronics"> ELECTRONICS </a></li>
-      </ul>
-    </nav>
+<body class="bodyFormularios">
 
+  <header>
+
+      <a class= "title" href="./index.html">VINOVA</a>
+    
   </header>
 
   <main>
 
-    <section class="productList"></section>
+    <section class="login">
+      <div class="loginForm">
+
+          <form action="index.html" method="GET" id="login">
+              <label for="email">Ingrese su mail de usuario</label>
+              <input for="email" type="email" name="email" value="" placeholder="Mail de Usuario" id="email">
+              <div id="email-error" class="error-message"></div> <br><br> 
+
+              <label for="contraseña">Ingrese su contraseña</label>
+              <input for="contraseña" type="password" name="pass" value="" placeholder="Contraseña" id="contraseña">
+              <div id="password-error" class="error-message"></div> <br><br> 
+
+              <button type="submit" id="ingresar"> Ingresar </button>
+          </form>
+
+          <div class="linkRegistro">
+              <a href="./register.html">No Tengo Cuenta</a>
+          </div>
+
+          <div class="linkRecuperar">
+              <a href="./recover.html">Recuperar Contraseña</a>
+          </div>
+        
+      </div>
+    </section>
 
   </main>
 
   <footer class="ultfondo">
-    
+
     <p class="lastp"> "Step into the timeless elegance of Vinova, where every stitch tells a story of style and heritage.
         Our collection celebrates the beauty of vintage and retro fashion, offering a blend of classic designs and modern
         trends. Dive into an era of sophistication and individuality with our handpicked selection of clothing and
         accessories. Discover your unique style at Vinova, where fashion meets nostalgia."</p>
-
+  
     <h1> <a class="title" href="./index.html" alt="Vinova Logo">VINOVA </a></h1>
-
+  
     <ul class="settings">
         <li>COOKIES SETTINGS</li>
         <li class="palito">|</li>
@@ -80,16 +92,16 @@
         <li class="palito">|</li>
         <li>COMPANY INFORMATION</li>
     </ul>
-
+  
     <a class="social" href="" target="_blank"><i class="fab fa-twitter"></i></a>
     <a class="social" href="" target="_blank"><i class="fab fa-facebook-square"></i></a>
     <a class="social" href="" target="_blank"><i class="fab fa-spotify"></i></a>
     <a class="social" href="" target="_blank"><i class="fab fa-apple"></i></a>
     <a class="social" href="" target="_blank"><i class="fab fa-amazon"></i></a>
     <a class="social" href="" target="_blank"><i class="fab fa-instagram"></i></a>
-
+  
     <p class="footer">&copy; 2024 VINOVA. ALL RIGHTS RESERVED.</p>
-
+  
     <section class="credits">
         <p>Designed by Vinova Team</p>
         <p> Francisca Garrasino,</p>
@@ -97,11 +109,12 @@
         <p>Francesca Saracco</p>
     </section>
 
-</footer>
+  </footer>
 
-    <script src="../js/category.js"></script>
-    <script src="../js/saludo.js"></script>
-    <script src="../js/logout.js"></script>
+
+<script src="./js/login.js"></script>
 
 </body>
+
+
 </html>
