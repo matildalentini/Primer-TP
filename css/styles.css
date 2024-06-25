@@ -30,10 +30,6 @@ a:visited{
 }
 
 
-.registro{
-  display: block;
-}
-
 /* HEADER---------------------- */
 
 .registro{
@@ -48,9 +44,18 @@ a:visited{
   color: black;
   list-style-type: none;
   display: flex;
+  justify-content: space-between; 
   align-items: center;
-  justify-content: center;
 }
+
+.sub1, .oculto{
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  margin-right: 20px;
+}
+
+
 
 .lista{
   display: block;
