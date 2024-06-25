@@ -15,7 +15,7 @@ console.log(welcome);
 console.log(mail);
 
 welcome.innerHTML = `<h2>Bienvenido: ${mail}</h2>
-                     <a href="../html/login.html" class="logout">LOG OUT</a>`
+                     <a href="./login.html" class="logout">LOG OUT</a>`
 
 
 if(mail){
