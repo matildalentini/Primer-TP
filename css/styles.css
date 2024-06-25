@@ -34,35 +34,10 @@ a:visited{
   display: block;
 }
 
-.title{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: black;
-  text-decoration: none;
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 100px;
-}
+/* HEADER---------------------- */
 
-.title2{
-  display: flex;
-  color: black;
-  text-decoration: none;
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 100;
-  font-style:normal;
-  font-size: 50px;
-}
-
-.lista{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 10px;
-  color:black;
-  text-decoration: none;
+.registro{
+  display: block;
 }
 
 .ul{
@@ -77,9 +52,38 @@ a:visited{
   justify-content: center;
 }
 
+.lista{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: 7px 25px;
+  color:black;
+  text-decoration: none;
+}
+
 .lista:hover{
   text-decoration: underline;
 }
+
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+}
+
+
+
+
+
+/*-------------------*/
+
 
 .homepic{
   width:100%;
@@ -265,27 +269,7 @@ text-decoration: none;
   color: rgb(234, 234, 234);
   background-color: rgb(31, 30, 30);}
 
-.identidad{
-  font-family: "Roboto Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  color: black;
-  position: absolute;
-  left: 90%; 
-  top: 2%;
-  color: black;
-  font-size: 16px;
-  text-decoration: none;
-}
 
-.R{
-  margin-left: 3%;
-  font-size: 14px;
-}
-.R:hover{
-  text-decoration: underline;
-}
  
 .intro , .lastp{
   font-family: "Open Sans", sans-serif;
